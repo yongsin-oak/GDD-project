@@ -586,3 +586,358 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.10.10-07.34.55:864][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
 [2023.10.10-07.34.55:864][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
 [2023.10.10-07.34.55:864][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.10.10-07.34.58:790][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.10.10-07.34.58:894][  0]LogDerivedDataCache: Loaded boot cache 0.10s 94MB C:/Users/NiTRO/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2023.10.10-07.34.58:894][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NiTRO/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2023.10.10-07.34.58:894][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/NiTRO/Documents/GDD-project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.10.10-07.34.58:894][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.10.10-07.34.58:894][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/NiTRO/Documents/GDD-project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.10.10-07.34.58:894][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.10.10-07.34.58:917][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.10.10-07.34.58:917][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.10.10-07.34.58:917][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.10.10-07.34.58:958][  0]LogDerivedDataCache: Speed tests for C:/Users/NiTRO/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.04 seconds
+[2023.10.10-07.34.58:958][  0]LogDerivedDataCache: Display: Performance to C:/Users/NiTRO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.19ms. RandomReadSpeed=29.01MBs, RandomWriteSpeed=198.71MBs. Assigned SpeedClass 'Local'
+[2023.10.10-07.34.58:958][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NiTRO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.10.10-07.34.58:959][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.10.10-07.34.58:959][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.10.10-07.34.58:994][  0]LogSlate: Using FreeType 2.10.0
+[2023.10.10-07.34.59:010][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.10.10-07.34.59:038][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2023.10.10-07.34.59:311][  0]LogInit: Selected Device Profile: [Windows]
+[2023.10.10-07.34.59:311][  0]LogInit: Active device profile: [00000223FDF2D500][00000223F6FCB880 49] Windows
+[2023.10.10-07.34.59:311][  0]LogInit: Profiles: [00000223FDF2D500][00000223F6FCB880 49] Windows, [00000223FDED0500][00000223F9831A00 49] WindowsNoEditor, [00000223FDED3900][00000223F9835B80 49] WindowsServer, [00000223FDF0FE00][00000223F9838180 49] WindowsClient, [00000223FDF2FA00][00000223F983C300 49] IOS, [00000223FDF0C500][00000223F9844480 49] iPadAir, [00000223FDED1D00][00000223F982C5C0 49] iPadAir2, [00000223FDD90500][00000223F984C800 49] IPadPro, [00000223FDD90600][00000223F9848840 49] iPadAir3, [00000223FDED2100][00000223F9850980 49] iPadAir4, [00000223FDD93E00][00000223F9858B00 49] iPadMini2, [00000223FDED3600][00000223F985CC80 49] iPadMini3, [00000223FDD91400][00000223F9860E00 49] iPadMini4, [00000223FDED2700][00000223FC734F80 49] iPadMini5, [00000223FDD83D00][00000223FC73D240 49] iPhone6, [00000223FDD83E00][00000223FC739280 49] iPodTouch6, [00000223FDD92100][00000223FC745540 49] iPhone7, [00000223FDD92200][00000223FC741580 49] iPodTouch7, [00000223FDD80700][00000223FC749700 49] iPhone5S, [00000223FDD93600][00000223FC74D880 49] iPhone6Plus, [00000223FDD83000][00000223FC751A00 49] iPhone6S, [00000223FDD92700][00000223FC755B80 49] iPhone6SPlus, [00000223FDD81000][00000223FC758180 49] iPhone7Plus, [00000223FDD92C00][00000223FC75C300 49] iPhoneSE, [00000223FDD82700][00000223FC760480 49] iPhone8, [00000223FDD92400][00000223FC764600 49] iPhone8Plus, [00000223FDD83300][00000223F9854740 49] iPhoneX, [00000223FDD92900][00000223FC768880 49] iPhoneXS, [00000223FDD80F00][00000223FC76C9C0 49] iPhoneXSMax, [00000223FDD92F00][00000223FEB2CB00 49] iPhoneXR, [00000223FDD82600][00000223FEB34C80 49] iPhone11, [00000223FDD91900][00000223FEB38E00 49] iPhone11Pro, [00000223FDD83100][00000223FEB3CF80 49] iPhone11ProMax, [00000223FDD91000][00000223FEB41100 49] iPhoneSE2, [00000223FDD83B00][00000223FEB45280 49] iPhone12Mini, [00000223FDD91100][00000223FEB49400 49] iPhone12, [00000223FDD80400][00000223FEB4D580 49] iPhone12Pro, [00000223FDD93400][00000223FEB51700 49] iPhone12ProMax, [00000223FDD80C00][00000223FEB55880 49] iPadPro105, [00000223FDD91B00][00000223FEB59A00 49] iPadPro129, [00000223FDD81B00][00000223FEB5DB80 49] iPadPro97, [00000223FDD90D00][00000223FEB60180 49] iPadPro2_129, [00000223FDD80800][00000223FEB64300 49] iPad5, [00000223FDD90300][00000223FEB68480 49] iPad6, [00000223FDD82300][00000223FEB6C600 49] iPad7, [00000223FDD91800][00000223FEB70780 49] iPad8, [00000223FDD83400][00000223FEB74900 49] iPadPro11, [00000223FDD90900][00000223FEB30A40 49] iPadPro2_11, [00000223FDD82C00][00000223FEB78B80 49] iPadPro3_129, [00000223FDD93500][00000223FEB7CCC0 49] iPadPro4_129, [00000223FDD83800][00000223FEB94E40 49] AppleTV, [00000223FDD92800][00000223FEB98FC0 49] AppleTV4K, [00000223FDD81F00][00000223FEB9D140 49] TVOS, [00000223FDD92600][00000223FEBA12C0 49] Mac, [00000223FDD82E00][00000223FEBA5440 49] MacClient, [00000223FDD90200][00000223FEBA95C0 49] MacNoEditor, [00000223FDD81200][00000223FEBAD740 49] MacServer, [00000223FDD93C00][00000223FEBB18C0 49] Linux, [00000223FDD82900][00000223FEBB5A40 49] LinuxAArch64, [00000223FDD93800][00000223FEBB9BC0 49] LinuxNoEditor, [00000223FDD81A00][00000223FEBBC1C0 49] LinuxAArch64NoEditor, [00000223FDD90700][00000223FEBC0340 49] LinuxClient, [00000223FDD83600][00000223FEBC44C0 49] LinuxAArch64Client, [00000223FDD93F00][00000223FEBC8640 49] LinuxServer, [00000223FDD81D00][00000223FEBCC7C0 49] LinuxAArch64Server, [00000223FDD92D00][00000223FEBD0940 49] Android, [00000223FDF2C200][00000223FEBD4AC0 49] Android_Low, [00000223FDF0FF00][00000223FEB90C00 49] Android_Mid, [00000223FDF2C800][00000223FEBD8D40 49] Android_High, [00000223FDF0F000][00000223FEBDCE80 49] Android_Default, [00000223FDF2C400][00000223FEBE0FC0 49] Android_Adreno4xx, [00000223FDF0FC00][00000223FEBE9140 49] Android_Adreno5xx_Low, [00000223FDF2CC00][00000223FEBED2C0 49] Android_Adreno5xx, [00000223FDF0ED00][00000223FEBF1440 49] Android_Adreno6xx, [00000223FDF2D300][00000223FEBF55C0 49] Android_Adreno6xx_Vulkan, [00000223FDF0F400][00000223FEBF9740 49] Android_Mali_T6xx, [00000223FDF2DC00][00000223FEBFD8C0 49] Android_Mali_T7xx, [00000223FDF0E500][00000223FEC01A40 49] Android_Mali_T8xx, [00000223FDF2DE00][00000223FEC05BC0 49] Android_Mali_G71, [00000223FDF0D600][00000223FEC081C0 49] Android_Mali_G72, [00000223FDF2D100][00000223FEC0C340 49] Android_Mali_G72_Vulkan, [00000223FDF0FB00][00000223FEC104C0 49] Android_Mali_G76, [00000223FDF2C100][00000223FEC14640 49] Android_Mali_G76_Vulkan, [00000223FDF0DC00][00000223FEC187C0 49] Android_Mali_G77, [00000223FDF2DF00][00000223FEC1C940 49] Android_Mali_G77_Vulkan, [00000223FDF0CC00][00000223FEC20AC0 49] Android_Mali_G78, [00000223FDF2D200][00000223FEC24C40 49] Android_Mali_G78_Vulkan, [00000223FDF0EE00][00000223FEBE4D80 49] Android_Mali_G710, [00000223FDF2CB00][00000223FEC28EC0 49] Android_Mali_G710_Vulkan, [00000223FDF0F200][00000223FEC2D000 49] Android_Vulkan_SM5, [00000223FDF2E000][00000223FEC31140 49] Android_PowerVR_G6xxx, [00000223FDF0D400][00000223FEC392C0 49] Android_PowerVR_GT7xxx, [00000223FDF2EC00][00000223FEC3D440 49] Android_PowerVR_GE8xxx, [00000223FDD81600][00000223FEC415C0 49] Android_PowerVR_GM9xxx, [00000223FDF2CE00][00000223FEC45740 49] Android_PowerVR_GM9xxx_Vulkan, [00000223FDD82A00][00000223FEC498C0 49] Android_TegraK1, [00000223FDF2EA00][00000223FEC4DA40 49] Android_Unknown_Vulkan, [00000223FDD81E00][00000223FEC51BC0 49] Lumin, [00000223FDF2EB00][00000223FEC541C0 49] Lumin_Desktop, [00000223FDD83200][00000223FEC58340 49] HoloLens, 
+[2023.10.10-07.34.59:493][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.10.10-07.34.59:493][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.10.10-07.34.59:493][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.10.10-07.34.59:493][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.10.10-07.34.59:494][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.10.10-07.34.59:522][  0]LogNetVersion: GDD_Project 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 1491781466)
+[2023.10.10-07.35.00:110][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2023.10.10-07.35.00:278][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2023.10.10-07.35.00:290][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2023.10.10-07.35.00:290][  0]LogUObjectAllocator: 4302048 out of 0 bytes used by permanent object pool.
+[2023.10.10-07.35.00:290][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.10.10-07.35.00:630][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 050FFEF64217FBF3F538DC9515F2BB51 | Instance: 2CCB1A1544271296E5C204B86F69ABE7 (LAPTOP-62HDIION-19128).
+[2023.10.10-07.35.01:072][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.10.10-07.35.01:078][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.10.10-07.35.01:118][  0]LogPython: Using Python 3.7.7
+[2023.10.10-07.35.02:118][  0]SourceControl: Source control is disabled
+[2023.10.10-07.35.02:118][  0]SourceControl: Source control is disabled
+[2023.10.10-07.35.02:126][  0]SourceControl: Source control is disabled
+[2023.10.10-07.35.02:137][  0]SourceControl: Source control is disabled
+[2023.10.10-07.35.02:141][  0]SourceControl: Source control is disabled
+[2023.10.10-07.35.02:159][  0]LogUProjectInfo: Found projects:
+[2023.10.10-07.35.02:164][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.10.10-07.35.02:164][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.10.10-07.35.02:165][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.10.10-07.35.02:489][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.10.10-07.35.02:518][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.10.10-07.35.02:518][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.10.10-07.35.02:589][  0]LogOpenImageDenoise: OIDN starting up
+[2023.10.10-07.35.02:754][  0]LogCollectionManager: Loaded 0 collections in 0.001394 seconds
+[2023.10.10-07.35.02:797][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NiTRO/Documents/GDD-project/Saved/Collections/' took 0.00s
+[2023.10.10-07.35.02:797][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NiTRO/Documents/GDD-project/Content/Developers/NiTRO/Collections/' took 0.00s
+[2023.10.10-07.35.02:797][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NiTRO/Documents/GDD-project/Content/Collections/' took 0.00s
+[2023.10.10-07.35.02:797][  0]LogOcInput: OculusInput pre-init called
+[2023.10.10-07.35.03:068][  0]LogEngine: Initializing Engine...
+[2023.10.10-07.35.03:078][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2023.10.10-07.35.03:078][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.10.10-07.35.03:078][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2023.10.10-07.35.03:080][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2023.10.10-07.35.03:312][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.10.10-07.35.03:328][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.10.10-07.35.03:367][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.10.10-07.35.03:373][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.10.10-07.35.03:378][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.10.10-07.35.03:379][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.10.10-07.35.03:379][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.10.10-07.35.03:379][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.10-07.35.03:379][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.10-07.35.03:379][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.10-07.35.03:379][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.10-07.35.03:379][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.10-07.35.03:379][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.10-07.35.03:380][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.10-07.35.03:380][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.10-07.35.03:380][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.10-07.35.03:380][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.10-07.35.03:380][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.10-07.35.03:380][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.10.10-07.35.03:395][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.10-07.35.03:395][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.10.10-07.35.03:970][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.10.10-07.35.03:974][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.10-07.35.04:003][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.10-07.35.04:003][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.10-07.35.04:004][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.10.10-07.35.04:004][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.10.10-07.35.04:004][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.10.10-07.35.04:005][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.10.10-07.35.04:005][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.10.10-07.35.04:005][  0]LogInit: FAudioDevice initialized.
+[2023.10.10-07.35.04:005][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.10.10-07.35.04:005][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.10.10-07.35.04:063][  0]LogDerivedDataCache: Saved boot cache 0.06s 94MB C:/Users/NiTRO/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2023.10.10-07.35.04:064][  0]LogInit: Texture streaming: Enabled
+[2023.10.10-07.35.04:077][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2023.10.10-07.35.04:082][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.10.10-07.35.04:082][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.10.10-07.35.04:084][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.10.10-07.35.04:112][  0]LogInit: Transaction tracking system initialized
+[2023.10.10-07.35.04:142][  0]BlueprintLog: New page: Editor Load
+[2023.10.10-07.35.04:239][  0]LocalizationService: Localization service is disabled
+[2023.10.10-07.35.04:280][  0]TimingProfiler: Initialize
+[2023.10.10-07.35.04:280][  0]TimingProfiler: OnSessionChanged
+[2023.10.10-07.35.04:280][  0]LoadingProfiler: Initialize
+[2023.10.10-07.35.04:281][  0]LoadingProfiler: OnSessionChanged
+[2023.10.10-07.35.04:281][  0]NetworkingProfiler: Initialize
+[2023.10.10-07.35.04:281][  0]NetworkingProfiler: OnSessionChanged
+[2023.10.10-07.35.04:281][  0]MemoryProfiler: Initialize
+[2023.10.10-07.35.04:281][  0]MemoryProfiler: OnSessionChanged
+[2023.10.10-07.35.04:377][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.10.10-07.35.04:377][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.10.10-07.35.04:378][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.10.10-07.35.04:575][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2023.10.10-07.35.04:575][  0]LogCook: Display: Mobile HDR setting 1
+[2023.10.10-07.35.04:860][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NiTRO/Documents/GDD-project/Content/' took 0.00s
+[2023.10.10-07.35.05:005][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.10.10-07.35.05:010][  0]SourceControl: Source control is disabled
+[2023.10.10-07.35.05:010][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.518
+[2023.10.10-07.35.05:010][  0]Cmd: MAP LOAD FILE="../../../../Users/NiTRO/Documents/GDD-project/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.10.10-07.35.05:010][  0]LogEditorServer: Warning: Can't find file '../../../../Users/NiTRO/Documents/GDD-project/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2023.10.10-07.35.05:010][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.10-07.35.05:010][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.09ms to complete.
+[2023.10.10-07.35.05:010][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.000
+[2023.10.10-07.35.05:012][  0]LogUnrealEdMisc: Total Editor Startup Time, took 14.521
+[2023.10.10-07.35.05:131][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-07.35.05:140][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-07.35.05:148][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-07.35.05:156][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-07.35.05:182][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0116 seconds. Added 3822 classes and 928 folders.
+[2023.10.10-07.35.05:189][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.10.10-07.35.05:200][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.10.10-07.35.05:200][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:200][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.10.10-07.35.05:200][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:200][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2023.10.10-07.35.05:200][  0]LogPakFile: OnPakFileMounted2Time == 0.000323
+[2023.10.10-07.35.05:207][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.10.10-07.35.05:207][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:207][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.10.10-07.35.05:207][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:207][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2023.10.10-07.35.05:207][  0]LogPakFile: OnPakFileMounted2Time == 0.000042
+[2023.10.10-07.35.05:214][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2023.10.10-07.35.05:214][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:214][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2023.10.10-07.35.05:214][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:214][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2023.10.10-07.35.05:214][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2023.10.10-07.35.05:220][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.10.10-07.35.05:221][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:221][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.10.10-07.35.05:221][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:221][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/StarterContent.upack)
+[2023.10.10-07.35.05:221][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2023.10.10-07.35.05:226][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.10.10-07.35.05:226][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:226][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.10.10-07.35.05:226][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:226][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2023.10.10-07.35.05:226][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2023.10.10-07.35.05:231][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.10.10-07.35.05:231][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:231][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.10.10-07.35.05:231][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:231][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2023.10.10-07.35.05:231][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2023.10.10-07.35.05:235][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.10.10-07.35.05:235][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:235][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.10.10-07.35.05:235][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:236][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2023.10.10-07.35.05:236][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.10.10-07.35.05:242][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.10.10-07.35.05:242][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:242][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.10.10-07.35.05:242][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:242][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2023.10.10-07.35.05:242][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2023.10.10-07.35.05:248][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.10.10-07.35.05:248][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:248][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.10.10-07.35.05:248][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:248][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2023.10.10-07.35.05:248][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2023.10.10-07.35.05:255][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.10.10-07.35.05:255][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:255][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.10.10-07.35.05:255][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:255][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2023.10.10-07.35.05:255][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2023.10.10-07.35.05:260][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.10.10-07.35.05:260][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:260][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.10.10-07.35.05:260][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:260][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2023.10.10-07.35.05:260][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2023.10.10-07.35.05:266][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.10.10-07.35.05:266][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:266][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.10.10-07.35.05:266][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:266][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2023.10.10-07.35.05:266][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2023.10.10-07.35.05:271][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.10.10-07.35.05:271][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:271][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.10.10-07.35.05:271][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:271][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2023.10.10-07.35.05:271][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2023.10.10-07.35.05:276][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.10.10-07.35.05:276][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:276][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.10.10-07.35.05:276][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:276][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2023.10.10-07.35.05:276][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2023.10.10-07.35.05:281][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.10.10-07.35.05:281][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:281][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.10.10-07.35.05:281][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:281][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2023.10.10-07.35.05:281][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2023.10.10-07.35.05:286][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.10.10-07.35.05:286][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:286][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.10.10-07.35.05:286][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:286][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2023.10.10-07.35.05:286][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2023.10.10-07.35.05:290][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.10.10-07.35.05:291][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:291][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.10.10-07.35.05:291][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:291][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2023.10.10-07.35.05:291][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2023.10.10-07.35.05:295][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.10.10-07.35.05:295][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:295][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.10.10-07.35.05:295][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:295][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2023.10.10-07.35.05:295][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2023.10.10-07.35.05:301][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.10.10-07.35.05:301][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:301][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.10.10-07.35.05:301][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:301][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2023.10.10-07.35.05:301][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2023.10.10-07.35.05:309][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.10.10-07.35.05:309][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:309][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.10.10-07.35.05:309][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:309][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2023.10.10-07.35.05:309][  0]LogPakFile: OnPakFileMounted2Time == 0.000074
+[2023.10.10-07.35.05:314][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.10.10-07.35.05:314][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:314][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.10.10-07.35.05:314][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:314][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2023.10.10-07.35.05:314][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2023.10.10-07.35.05:320][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.10.10-07.35.05:320][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:320][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.10.10-07.35.05:320][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:320][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2023.10.10-07.35.05:320][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.10.10-07.35.05:325][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2023.10.10-07.35.05:325][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:325][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2023.10.10-07.35.05:325][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:325][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2023.10.10-07.35.05:325][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2023.10.10-07.35.05:329][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.10.10-07.35.05:329][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:329][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.10.10-07.35.05:329][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:329][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2023.10.10-07.35.05:329][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2023.10.10-07.35.05:334][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.10.10-07.35.05:334][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:334][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.10.10-07.35.05:334][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:334][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2023.10.10-07.35.05:334][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2023.10.10-07.35.05:339][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.10.10-07.35.05:339][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.10-07.35.05:339][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.10.10-07.35.05:340][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.10.10-07.35.05:340][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2023.10.10-07.35.05:340][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2023.10.10-07.35.05:542][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.10.10-07.35.05:544][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2023.10.10-07.35.05:669][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.10.10-07.35.05:670][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.10.10-07.35.05:672][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.10.10-07.35.05:815][  0]LogRenderer: Reallocating scene render targets to support 912x424 Format 10 NumSamples 1 (Frame:1).
+[2023.10.10-07.35.06:146][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.10-07.35.06:274][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.10.10-07.35.06:274][  0]LogLoad: (Engine Initialization) Total time: 15.78 seconds
+[2023.10.10-07.35.06:274][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.10.10-07.35.06:332][  0]LogAssetRegistry: Asset discovery search completed in 7.2948 seconds
+[2023.10.10-07.35.06:356][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2023.10.10-07.35.06:357][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.10.10-07.35.24:291][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.10.10-07.35.24:302][350]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.10-07.35.24:328][350]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SideScrollerBP/Maps/MainMenu.MainMenu
+[2023.10.10-07.35.24:329][350]Cmd: MAP LOAD FILE="../../../../Users/NiTRO/Documents/GDD-project/Content/SideScrollerBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.10.10-07.35.24:329][350]LightingResults: New page: Lighting Build
+[2023.10.10-07.35.24:330][350]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 6 classes and 0 folders.
+[2023.10.10-07.35.24:330][350]LoadErrors: New page: Loading map: MainMenu.umap
+[2023.10.10-07.35.24:360][350]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-07.35.24:361][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-07.35.24:361][350]MapCheck: New page: Map Check
+[2023.10.10-07.35.24:361][350]LightingResults: New page: Lighting Build
+[2023.10.10-07.35.24:365][350]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.10-07.35.24:366][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.10.10-07.35.24:366][350]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2023.10.10-07.35.24:385][350]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.10-07.35.24:385][350]LogAIModule: Creating AISystem for world MainMenu
+[2023.10.10-07.35.24:390][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.10.10-07.35.24:397][350]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.10-07.35.24:399][350]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.105ms to complete.
+[2023.10.10-07.35.24:399][350]LogFileHelpers: Loading map 'MainMenu' took 0.070
+[2023.10.10-07.35.25:333][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.10-07.35.25:349][405]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SideScrollerBP/Maps/MainMenu.MainMenu
+[2023.10.10-07.35.25:349][405]Cmd: MAP LOAD FILE="../../../../Users/NiTRO/Documents/GDD-project/Content/SideScrollerBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.10.10-07.35.25:349][405]LightingResults: New page: Lighting Build
+[2023.10.10-07.35.25:349][405]LoadErrors: New page: Loading map: MainMenu.umap
+[2023.10.10-07.35.25:350][405]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-07.35.25:351][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-07.35.25:351][405]MapCheck: New page: Map Check
+[2023.10.10-07.35.25:351][405]LightingResults: New page: Lighting Build
+[2023.10.10-07.35.25:354][405]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.10-07.35.25:355][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.10.10-07.35.25:360][405]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2023.10.10-07.35.25:360][405]LogAIModule: Creating AISystem for world MainMenu
+[2023.10.10-07.35.25:375][405]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.10-07.35.25:380][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.10.10-07.35.25:388][405]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.10-07.35.25:388][405]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.089ms to complete.
+[2023.10.10-07.35.25:388][405]LogFileHelpers: Loading map 'MainMenu' took 0.039
+[2023.10.10-07.35.26:032][443]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.10-07.35.26:051][443]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SideScrollerBP/Maps/MainMenu.MainMenu
+[2023.10.10-07.35.26:051][443]Cmd: MAP LOAD FILE="../../../../Users/NiTRO/Documents/GDD-project/Content/SideScrollerBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.10.10-07.35.26:051][443]LightingResults: New page: Lighting Build
+[2023.10.10-07.35.26:051][443]LoadErrors: New page: Loading map: MainMenu.umap
+[2023.10.10-07.35.26:053][443]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-07.35.26:053][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-07.35.26:053][443]MapCheck: New page: Map Check
+[2023.10.10-07.35.26:053][443]LightingResults: New page: Lighting Build
+[2023.10.10-07.35.26:056][443]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.10-07.35.26:057][443]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.10.10-07.35.26:062][443]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2023.10.10-07.35.26:062][443]LogAIModule: Creating AISystem for world MainMenu
+[2023.10.10-07.35.26:079][443]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.10-07.35.26:084][443]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.10.10-07.35.26:092][443]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.10-07.35.26:093][443]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.139ms to complete.
+[2023.10.10-07.35.26:093][443]LogFileHelpers: Loading map 'MainMenu' took 0.041
