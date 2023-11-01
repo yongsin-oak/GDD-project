@@ -930,3 +930,133 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.11.01-08.04.35:305][641]Cmd: MAP CHECKDEP NOCLEARLOG
 [2023.11.01-08.04.35:305][641]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.089ms to complete.
 [2023.11.01-08.04.35:305][641]LogFileHelpers: Loading map 'MainMenu' took 0.068
+[2023.11.01-08.04.55:892][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.11.01-08.04.55:915][922]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SideScrollerBP/Maps/MainMenu.MainMenu
+[2023.11.01-08.04.55:915][922]Cmd: MAP LOAD FILE="C:/Users/NiTRO/Documents/GDD-project/Content/SideScrollerBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.11.01-08.04.55:915][922]LightingResults: New page: Lighting Build
+[2023.11.01-08.04.55:915][922]LoadErrors: New page: Loading map: MainMenu.umap
+[2023.11.01-08.04.55:955][922]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.11.01-08.04.55:955][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.01-08.04.55:955][922]MapCheck: New page: Map Check
+[2023.11.01-08.04.55:955][922]LightingResults: New page: Lighting Build
+[2023.11.01-08.04.55:958][922]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.01-08.04.55:959][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.11.01-08.04.55:965][922]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2023.11.01-08.04.55:966][922]LogAIModule: Creating AISystem for world MainMenu
+[2023.11.01-08.04.55:985][922]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.11.01-08.04.55:991][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.11.01-08.04.56:000][922]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.11.01-08.04.56:001][922]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.112ms to complete.
+[2023.11.01-08.04.56:001][922]LogFileHelpers: Loading map 'MainMenu' took 0.086
+[2023.11.01-08.04.58:153][ 48]LogEditorViewport: Clicking Background
+[2023.11.01-08.05.03:050][314]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/SideScrollerBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2023.11.01-08.05.03:226][314]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 126 classes and 0 folders.
+[2023.11.01-08.05.04:042][314]LogSlate: Took 0.006325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.11.01-08.05.04:110][315]LogSlate: Took 0.008549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.11.01-08.05.10:643][706]Cmd: SELECT NONE
+[2023.11.01-08.05.12:111][790]LogSlate: Window 'MainMenu' being destroyed
+[2023.11.01-08.05.12:118][790]LogSlate: Window 'MainMenu' being destroyed
+[2023.11.01-08.05.12:120][790]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.11.01-08.05.12:120][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.01-08.05.19:729][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.11.01-08.05.19:749][231]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SideScrollerBP/Maps/MainMenu.MainMenu
+[2023.11.01-08.05.19:749][231]Cmd: MAP LOAD FILE="C:/Users/NiTRO/Documents/GDD-project/Content/SideScrollerBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.11.01-08.05.19:750][231]LightingResults: New page: Lighting Build
+[2023.11.01-08.05.19:750][231]LoadErrors: New page: Loading map: MainMenu.umap
+[2023.11.01-08.05.19:751][231]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.11.01-08.05.19:751][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.01-08.05.19:751][231]MapCheck: New page: Map Check
+[2023.11.01-08.05.19:751][231]LightingResults: New page: Lighting Build
+[2023.11.01-08.05.19:765][231]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.01-08.05.19:767][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.11.01-08.05.19:774][231]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2023.11.01-08.05.19:775][231]LogAIModule: Creating AISystem for world MainMenu
+[2023.11.01-08.05.19:795][231]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.11.01-08.05.19:813][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.11.01-08.05.19:824][231]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.11.01-08.05.19:825][231]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.166ms to complete.
+[2023.11.01-08.05.19:825][231]LogFileHelpers: Loading map 'MainMenu' took 0.075
+[2023.11.01-08.05.30:375][859]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/SideScrollerBP/Widgets/background.background
+[2023.11.01-08.05.30:382][859]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2023.11.01-08.05.32:130][935]LogSlate: Window 'background' being destroyed
+[2023.11.01-08.05.32:135][935]LogSlate: Window 'background' being destroyed
+[2023.11.01-08.05.32:847][975]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/SideScrollerBP/Widgets/Main_menu.Main_menu
+[2023.11.01-08.05.33:791][975]LogSlate: Took 0.006146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.11.01-08.05.37:130][159]BlueprintLog: New page: Compile Main_menu
+[2023.11.01-08.05.37:135][159]LogBlueprint: Warning: [AssetLog] C:\Users\NiTRO\Documents\GDD-project\Content\SideScrollerBP\Widgets\Main_menu.uasset: [Compiler] On Click Custom (QuitButton)  does not have a valid matching component!
+[2023.11.01-08.05.37:236][159]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2023.11.01-08.05.53:360][110]BlueprintLog: New page: Compile Main_menu
+[2023.11.01-08.05.53:363][110]LogBlueprint: Warning: [AssetLog] C:\Users\NiTRO\Documents\GDD-project\Content\SideScrollerBP\Widgets\Main_menu.uasset: [Compiler] On Click Custom (QuitButton)  does not have a valid matching component!
+[2023.11.01-08.05.53:427][110]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2023.11.01-08.06.01:818][590]BlueprintLog: New page: Compile Main_menu
+[2023.11.01-08.06.01:853][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2023.11.01-08.06.02:272][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Widgets/Main_menu" FILE="C:/Users/NiTRO/Documents/GDD-project/Content/SideScrollerBP/Widgets/Main_menu.uasset" SILENT=true
+[2023.11.01-08.06.02:288][610]LogSavePackage: Moving 'C:/Users/NiTRO/Documents/GDD-project/Saved/Main_menuA37B2AD34192B7B2103AB5981795A179.tmp' to 'C:/Users/NiTRO/Documents/GDD-project/Content/SideScrollerBP/Widgets/Main_menu.uasset'
+[2023.11.01-08.06.02:322][610]AssetCheck: New page: Asset Save: Main_menu
+[2023.11.01-08.06.02:322][610]LogContentValidation: Display: Validating WidgetBlueprint /Game/SideScrollerBP/Widgets/Main_menu.Main_menu
+[2023.11.01-08.06.02:808][638]LogSlate: Window 'Main_menu' being destroyed
+[2023.11.01-08.06.02:814][638]LogSlate: Window 'Main_menu' being destroyed
+[2023.11.01-08.06.02:824][638]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.11.01-08.06.02:824][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.01-08.06.02:833][638]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.11.01-08.06.02:833][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.01-08.06.05:887][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/MainMenu" FILE="C:/Users/NiTRO/Documents/GDD-project/Content/SideScrollerBP/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.01-08.06.05:934][815]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2023.11.01-08.06.05:943][815]LogSavePackage: Moving 'C:/Users/NiTRO/Documents/GDD-project/Saved/MainMenu4D971A964E6D20AE189CC1A6E8AFED1A.tmp' to 'C:/Users/NiTRO/Documents/GDD-project/Content/SideScrollerBP/Maps/MainMenu.umap'
+[2023.11.01-08.06.05:977][815]AssetCheck: New page: Asset Save: MainMenu
+[2023.11.01-08.06.05:977][815]LogContentValidation: Display: Validating World /Game/SideScrollerBP/Maps/MainMenu.MainMenu
+[2023.11.01-08.06.06:583][852]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.01-08.06.06:590][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.01-08.06.06:590][852]PIE: New page: PIE session: MainMenu (1 พ.ย. 2566 22:06:06)
+[2023.11.01-08.06.06:592][852]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.11.01-08.06.06:595][852]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.11.01-08.06.06:596][852]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_MainMenu
+[2023.11.01-08.06.06:597][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001393s)
+[2023.11.01-08.06.06:598][852]LogAIModule: Creating AISystem for world MainMenu
+[2023.11.01-08.06.06:599][852]LogPlayLevel: PIE: World Init took: (0.002131s)
+[2023.11.01-08.06.06:600][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/MainMenu.MainMenu to /Game/SideScrollerBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.004189s)
+[2023.11.01-08.06.06:643][852]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2023.11.01-08.06.06:645][852]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.11.01-08.06.06:645][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.01-08.06.06:645][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.01-08.06.06:645][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.01-08.06.06:645][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.01-08.06.06:645][852]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.01-08.06.06:645][852]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.01-08.06.06:645][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.01-08.06.06:645][852]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.01-08.06.06:646][852]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.01-08.06.06:646][852]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.01-08.06.06:646][852]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.01-08.06.06:646][852]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.01-08.06.06:651][852]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.01-08.06.06:651][852]LogAudioMixer: Display: 1: FrontRight
+[2023.11.01-08.06.06:777][852]LogAudioMixer: Display: Using Audio Device Headphones (HyperX Cloud III)
+[2023.11.01-08.06.06:778][852]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.01-08.06.06:778][852]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.01-08.06.06:778][852]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.01-08.06.06:779][852]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.01-08.06.06:779][852]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.01-08.06.06:779][852]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.01-08.06.06:781][852]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.01-08.06.06:781][852]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.01-08.06.06:781][852]LogInit: FAudioDevice initialized.
+[2023.11.01-08.06.06:781][852]LogAudio: Display: Audio Device (ID: 2) registered with world 'MainMenu'.
+[2023.11.01-08.06.06:798][852]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2023.11.01-08.06.06:799][852]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2023.11.01-15.06.06
+[2023.11.01-08.06.06:800][852]LogWorld: Bringing up level for play took: 0.001154
+[2023.11.01-08.06.06:801][852]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2023.11.01-08.06.06:826][852]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2023.11.01-08.06.06:857][852]PIE: Server logged in
+[2023.11.01-08.06.06:858][852]PIE: Play in editor total start time 0.271 seconds.
+[2023.11.01-08.06.10:195][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.01-08.06.10:195][ 31]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_MainMenu
+[2023.11.01-08.06.10:196][ 31]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.11.01-08.06.10:196][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.01-08.06.10:203][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.01-08.06.10:208][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.01-08.06.10:224][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.01-08.06.10:239][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.01-08.06.10:242][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.01-08.06.10:283][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2023.11.01-08.06.10:305][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_4
