@@ -1317,3 +1317,846 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.11.05-17.49.52:156][567]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2023.11.05-17.49.52:161][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
 [2023.11.05-17.49.52:200][569]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.11.05-17.50.09:603][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.11.05-17.50.10:677][110]LogSlate: Window 'Save Content' being destroyed
+[2023.11.05-17.50.10:707][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerGameMode" FILE="../../../../GDD-project/Content/SideScrollerBP/Blueprints/SideScrollerGameMode.uasset" SILENT=true
+[2023.11.05-17.50.10:710][110]LogSavePackage: Moving '../../../../GDD-project/Saved/SideScrollerGameModeFFA7BABD4C89B5B1DAB5469AA359C8BF.tmp' to '../../../../GDD-project/Content/SideScrollerBP/Blueprints/SideScrollerGameMode.uasset'
+[2023.11.05-17.50.10:710][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SK_Devvy_M_Skeleton" FILE="../../../../GDD-project/Content/Assets/Meshes/SK_Devvy_M_Skeleton.uasset" SILENT=true
+[2023.11.05-17.50.10:711][110]LogSavePackage: Moving '../../../../GDD-project/Saved/SK_Devvy_M_SkeletonB41068E846B749DA116F43BFD7F6B43B.tmp' to '../../../../GDD-project/Content/Assets/Meshes/SK_Devvy_M_Skeleton.uasset'
+[2023.11.05-17.50.10:740][110]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SideScrollerBP/Maps/Map01.Map01
+[2023.11.05-17.50.10:740][110]Cmd: MAP LOAD FILE="../../../../GDD-project/Content/SideScrollerBP/Maps/Map01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.11.05-17.50.10:740][110]LightingResults: New page: Lighting Build
+[2023.11.05-17.50.10:740][110]LoadErrors: New page: Loading map: Map01.umap
+[2023.11.05-17.50.10:764][110]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.50.10:764][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.50.10:764][110]MapCheck: New page: Map Check
+[2023.11.05-17.50.10:764][110]LightingResults: New page: Lighting Build
+[2023.11.05-17.50.10:779][110]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-17.50.10:782][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.11.05-17.50.10:782][110]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map01'.
+[2023.11.05-17.50.10:846][110]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.11.05-17.50.10:846][110]LogAIModule: Creating AISystem for world Map01
+[2023.11.05-17.50.10:863][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.11.05-17.50.10:872][110]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.11.05-17.50.10:872][110]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.075ms to complete.
+[2023.11.05-17.50.10:872][110]LogFileHelpers: Loading map 'Map01' took 0.133
+[2023.11.05-17.50.10:897][110]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.05-17.50.10:897][110]LogContentValidation: Display: Validating Skeleton /Game/Assets/Meshes/SK_Devvy_M_Skeleton.SK_Devvy_M_Skeleton
+[2023.11.05-17.50.10:897][110]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode
+[2023.11.05-17.50.11:336][136]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.05-17.50.11:341][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-17.50.11:341][136]PIE: New page: PIE session: Map01 (6 พ.ย. 2566 07:50:11)
+[2023.11.05-17.50.11:364][136]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-17.50.11:366][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002029s)
+[2023.11.05-17.50.11:367][136]LogAIModule: Creating AISystem for world Map01
+[2023.11.05-17.50.11:367][136]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2023.11.05-17.50.11:367][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Map01.Map01 to /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 (0.003294s)
+[2023.11.05-17.50.11:380][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.11.05-17.50.11:381][136]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.11.05-17.50.11:381][136]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-17.50.11:381][136]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-17.50.11:381][136]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-17.50.11:381][136]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-17.50.11:381][136]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.05-17.50.11:381][136]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.05-17.50.11:381][136]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.05-17.50.11:381][136]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-17.50.11:381][136]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-17.50.11:381][136]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-17.50.11:381][136]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-17.50.11:381][136]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.05-17.50.11:386][136]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.05-17.50.11:386][136]LogAudioMixer: Display: 1: FrontRight
+[2023.11.05-17.50.11:486][136]LogAudioMixer: Display: Using Audio Device Headphones (HyperX Cloud III)
+[2023.11.05-17.50.11:487][136]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-17.50.11:487][136]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-17.50.11:487][136]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-17.50.11:487][136]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.05-17.50.11:487][136]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.05-17.50.11:487][136]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.05-17.50.11:488][136]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.05-17.50.11:488][136]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.05-17.50.11:488][136]LogInit: FAudioDevice initialized.
+[2023.11.05-17.50.11:488][136]LogAudio: Display: Audio Device (ID: 8) registered with world 'Map01'.
+[2023.11.05-17.50.11:499][136]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2023.11.05-17.50.11:501][136]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2023.11.06-00.50.11
+[2023.11.05-17.50.11:501][136]LogWorld: Bringing up level for play took: 0.000517
+[2023.11.05-17.50.11:502][136]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2023.11.05-17.50.11:503][136]PIE: Server logged in
+[2023.11.05-17.50.11:504][136]PIE: Play in editor total start time 0.165 seconds.
+[2023.11.05-17.50.23:864][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-17.50.23:864][876]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-17.50.23:864][876]LogWorld: UWorld::CleanupWorld for Map01, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.50.23:865][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.50.23:873][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-17.50.23:877][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.50.23:889][876]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-17.50.23:889][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-17.50.23:890][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-17.50.23:893][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-17.50.23:897][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.11.05-17.50.23:950][879]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.11.05-17.50.26:533][ 34]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.05-17.50.26:537][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-17.50.26:538][ 34]PIE: New page: PIE session: Map01 (6 พ.ย. 2566 07:50:26)
+[2023.11.05-17.50.26:538][ 34]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-17.50.26:539][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001675s)
+[2023.11.05-17.50.26:540][ 34]LogAIModule: Creating AISystem for world Map01
+[2023.11.05-17.50.26:540][ 34]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2023.11.05-17.50.26:540][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Map01.Map01 to /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 (0.002776s)
+[2023.11.05-17.50.26:555][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.05-17.50.26:556][ 34]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.11.05-17.50.26:556][ 34]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-17.50.26:556][ 34]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-17.50.26:556][ 34]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-17.50.26:556][ 34]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-17.50.26:556][ 34]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.05-17.50.26:556][ 34]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.05-17.50.26:556][ 34]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.05-17.50.26:556][ 34]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-17.50.26:556][ 34]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-17.50.26:556][ 34]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-17.50.26:556][ 34]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-17.50.26:556][ 34]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.05-17.50.26:560][ 34]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.05-17.50.26:560][ 34]LogAudioMixer: Display: 1: FrontRight
+[2023.11.05-17.50.26:655][ 34]LogAudioMixer: Display: Using Audio Device Headphones (HyperX Cloud III)
+[2023.11.05-17.50.26:656][ 34]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-17.50.26:656][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-17.50.26:656][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-17.50.26:656][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.05-17.50.26:656][ 34]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.05-17.50.26:656][ 34]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.05-17.50.26:657][ 34]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.05-17.50.26:657][ 34]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.05-17.50.26:657][ 34]LogInit: FAudioDevice initialized.
+[2023.11.05-17.50.26:657][ 34]LogAudio: Display: Audio Device (ID: 9) registered with world 'Map01'.
+[2023.11.05-17.50.26:667][ 34]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2023.11.05-17.50.26:668][ 34]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2023.11.06-00.50.26
+[2023.11.05-17.50.26:668][ 34]LogWorld: Bringing up level for play took: 0.000425
+[2023.11.05-17.50.26:668][ 34]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2023.11.05-17.50.26:670][ 34]PIE: Server logged in
+[2023.11.05-17.50.26:671][ 34]PIE: Play in editor total start time 0.134 seconds.
+[2023.11.05-17.50.32:571][386]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy
+[2023.11.05-17.51.23:875][416]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-17.51.23:881][416]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-17.51.23:883][416]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.23:883][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.24:741][465]Cmd: SELECT NONE
+[2023.11.05-17.51.25:495][510]Cmd: SELECT NONE
+[2023.11.05-17.51.26:354][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-17.51.26:354][559]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-17.51.26:354][559]LogWorld: UWorld::CleanupWorld for Map01, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.26:355][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.26:361][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-17.51.26:366][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.26:377][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-17.51.26:378][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-17.51.26:379][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-17.51.26:386][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.11.05-17.51.26:426][561]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.11.05-17.51.35:089][ 70]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Animations/Anim_Walk.Anim_Walk
+[2023.11.05-17.51.35:095][ 70]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.51.35:331][ 70]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.11.05-17.51.38:261][242]LogSlate: Window 'Anim_Walk' being destroyed
+[2023.11.05-17.51.38:267][242]LogSlate: Window 'Anim_Walk' being destroyed
+[2023.11.05-17.51.38:267][242]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.38:267][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.38:283][242]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.38:283][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.38:331][242]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.38:331][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.39:711][322]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Animations/Anim_Sprint.Anim_Sprint
+[2023.11.05-17.51.39:715][322]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.51.39:956][322]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.11.05-17.51.40:751][368]LogSlate: Window 'Anim_Sprint' being destroyed
+[2023.11.05-17.51.40:758][368]LogSlate: Window 'Anim_Sprint' being destroyed
+[2023.11.05-17.51.40:758][368]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.40:758][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.40:772][368]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.40:772][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.40:818][368]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.40:818][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.45:999][675]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Assets/Animations/Blend_Land-Move.Blend_Land-Move
+[2023.11.05-17.51.46:002][675]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.51.46:235][675]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.11.05-17.51.47:685][761]LogSlate: Window 'Blend_Land-Move' being destroyed
+[2023.11.05-17.51.47:691][761]LogSlate: Window 'Blend_Land-Move' being destroyed
+[2023.11.05-17.51.47:691][761]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.47:691][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.47:737][761]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.47:737][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.48:580][809]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Assets/Animations/Blend_Idle-Sprint.Blend_Idle-Sprint
+[2023.11.05-17.51.48:584][809]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.51.48:808][809]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.11.05-17.51.49:705][862]LogSlate: Window 'Blend_Idle-Sprint' being destroyed
+[2023.11.05-17.51.49:711][862]LogSlate: Window 'Blend_Idle-Sprint' being destroyed
+[2023.11.05-17.51.49:711][862]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.49:711][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.49:764][862]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.49:764][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.52:524][ 25]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Animations/Anim_Slide.Anim_Slide
+[2023.11.05-17.51.52:527][ 25]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.51.52:766][ 25]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.11.05-17.51.53:997][ 98]LogSlate: Window 'Anim_Slide' being destroyed
+[2023.11.05-17.51.54:003][ 98]LogSlate: Window 'Anim_Slide' being destroyed
+[2023.11.05-17.51.54:003][ 98]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.54:004][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.54:022][ 98]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.54:022][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.51.54:064][ 98]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.51.54:064][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.03:698][669]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Animations/Anim_Walk.Anim_Walk
+[2023.11.05-17.52.03:702][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.52.03:941][669]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.11.05-17.52.09:753][ 12]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Assets/Meshes/SK_Devvy_F.SK_Devvy_F
+[2023.11.05-17.52.09:756][ 12]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.52.10:015][ 13]LogRenderer: Reallocating scene render targets to support 984x584 Format 10 NumSamples 1 (Frame:1).
+[2023.11.05-17.52.11:427][ 94]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Assets/Animations/ABP_Player.ABP_Player
+[2023.11.05-17.52.11:433][ 94]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.52.18:640][483]LogSlate: Window 'ABP_Player' being destroyed
+[2023.11.05-17.52.18:645][483]LogSlate: Window 'ABP_Player' being destroyed
+[2023.11.05-17.52.18:645][483]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.18:645][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.18:662][483]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.18:662][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.18:710][483]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.18:710][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.18:721][483]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.18:722][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.18:776][483]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.18:776][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.18:784][483]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.18:784][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.18:845][483]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.18:845][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.21:345][626]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Animations/Anim_Run.Anim_Run
+[2023.11.05-17.52.21:348][626]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.52.21:583][626]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.11.05-17.52.23:578][744]LogSlate: Window 'Anim_Run' being destroyed
+[2023.11.05-17.52.23:583][744]LogSlate: Window 'Anim_Run' being destroyed
+[2023.11.05-17.52.23:604][744]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.23:604][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.23:618][744]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.23:618][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.23:669][744]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.23:669][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.24:843][810]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Animations/Anim_Sprint.Anim_Sprint
+[2023.11.05-17.52.24:847][810]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.52.25:080][810]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.11.05-17.52.25:930][860]LogSlate: Window 'Anim_Sprint' being destroyed
+[2023.11.05-17.52.25:935][860]LogSlate: Window 'Anim_Sprint' being destroyed
+[2023.11.05-17.52.25:974][860]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.25:974][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.25:989][860]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.25:989][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.26:036][860]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.26:036][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.27:488][946]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.05-17.52.27:493][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-17.52.27:493][946]PIE: New page: PIE session: Map01 (6 พ.ย. 2566 07:52:27)
+[2023.11.05-17.52.27:514][946]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-17.52.27:516][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001914s)
+[2023.11.05-17.52.27:517][946]LogAIModule: Creating AISystem for world Map01
+[2023.11.05-17.52.27:517][946]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2023.11.05-17.52.27:517][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Map01.Map01 to /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 (0.003160s)
+[2023.11.05-17.52.27:553][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.11.05-17.52.27:556][946]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.11.05-17.52.27:556][946]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-17.52.27:556][946]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-17.52.27:556][946]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-17.52.27:556][946]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-17.52.27:556][946]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.05-17.52.27:556][946]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.05-17.52.27:556][946]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.05-17.52.27:556][946]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-17.52.27:557][946]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-17.52.27:557][946]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-17.52.27:557][946]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-17.52.27:557][946]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.05-17.52.27:561][946]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.05-17.52.27:561][946]LogAudioMixer: Display: 1: FrontRight
+[2023.11.05-17.52.27:658][946]LogAudioMixer: Display: Using Audio Device Headphones (HyperX Cloud III)
+[2023.11.05-17.52.27:658][946]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-17.52.27:658][946]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-17.52.27:658][946]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-17.52.27:658][946]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.05-17.52.27:658][946]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.05-17.52.27:658][946]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.05-17.52.27:659][946]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.05-17.52.27:659][946]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.05-17.52.27:659][946]LogInit: FAudioDevice initialized.
+[2023.11.05-17.52.27:659][946]LogAudio: Display: Audio Device (ID: 10) registered with world 'Map01'.
+[2023.11.05-17.52.27:666][946]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2023.11.05-17.52.27:667][946]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2023.11.06-00.52.27
+[2023.11.05-17.52.27:667][946]LogWorld: Bringing up level for play took: 0.000441
+[2023.11.05-17.52.27:667][946]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2023.11.05-17.52.27:670][946]PIE: Server logged in
+[2023.11.05-17.52.27:670][946]PIE: Play in editor total start time 0.179 seconds.
+[2023.11.05-17.52.30:719][129]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2023.11.05-17.52.30:719][129]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2023.11.05-17.52.30:754][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-17.52.30:755][129]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-17.52.30:755][129]LogWorld: UWorld::CleanupWorld for Map01, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.30:755][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.30:762][129]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-17.52.30:766][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.30:778][129]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-17.52.30:778][129]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-17.52.30:779][129]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-17.52.30:782][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-17.52.30:785][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.11.05-17.52.30:832][132]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2023.11.05-17.52.31:303][158]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Animations/Anim_Walk.Anim_Walk
+[2023.11.05-17.52.31:306][158]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.52.31:553][158]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.11.05-17.52.32:731][227]LogSlate: Window 'Anim_Walk' being destroyed
+[2023.11.05-17.52.32:738][227]LogSlate: Window 'Anim_Walk' being destroyed
+[2023.11.05-17.52.32:738][227]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.32:738][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.32:756][227]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.32:756][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.32:807][227]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.32:807][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.33:997][296]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Animations/Anim_Run.Anim_Run
+[2023.11.05-17.52.34:000][296]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.52.34:236][296]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.11.05-17.52.42:302][770]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Assets/Meshes/SK_Devvy_F_PhysicsAsset.SK_Devvy_F_PhysicsAsset
+[2023.11.05-17.52.42:344][770]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0004 seconds. Added 8 classes and 3 folders.
+[2023.11.05-17.52.42:354][770]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.52.42:751][771]LogRenderer: Reallocating scene render targets to support 984x592 Format 10 NumSamples 1 (Frame:1).
+[2023.11.05-17.52.42:781][771]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Assets/Animations/ABP_Player.ABP_Player
+[2023.11.05-17.52.42:786][771]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_50:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.52.52:990][324]LogSlate: Window 'ABP_Player' being destroyed
+[2023.11.05-17.52.52:997][324]LogSlate: Window 'ABP_Player' being destroyed
+[2023.11.05-17.52.52:997][324]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.52:997][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.53:016][324]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.53:016][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.53:068][324]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.53:068][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.53:085][324]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.53:085][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.53:148][324]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.53:148][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.53:156][324]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.53:156][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.53:220][324]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.53:220][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.53:847][361]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.05-17.52.53:852][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-17.52.53:852][361]PIE: New page: PIE session: Map01 (6 พ.ย. 2566 07:52:53)
+[2023.11.05-17.52.53:883][361]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-17.52.53:885][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001802s)
+[2023.11.05-17.52.53:886][361]LogAIModule: Creating AISystem for world Map01
+[2023.11.05-17.52.53:887][361]LogPlayLevel: PIE: World Init took: (0.001258s)
+[2023.11.05-17.52.53:887][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Map01.Map01 to /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 (0.003190s)
+[2023.11.05-17.52.53:961][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2023.11.05-17.52.53:964][361]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.11.05-17.52.53:964][361]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-17.52.53:964][361]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-17.52.53:964][361]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-17.52.53:964][361]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-17.52.53:964][361]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.05-17.52.53:964][361]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.05-17.52.53:964][361]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.05-17.52.53:964][361]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-17.52.53:965][361]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-17.52.53:965][361]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-17.52.53:965][361]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-17.52.53:965][361]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.05-17.52.53:969][361]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.05-17.52.53:969][361]LogAudioMixer: Display: 1: FrontRight
+[2023.11.05-17.52.54:065][361]LogAudioMixer: Display: Using Audio Device Headphones (HyperX Cloud III)
+[2023.11.05-17.52.54:065][361]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-17.52.54:065][361]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-17.52.54:065][361]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-17.52.54:065][361]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.05-17.52.54:065][361]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.05-17.52.54:065][361]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.05-17.52.54:066][361]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.05-17.52.54:066][361]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.05-17.52.54:066][361]LogInit: FAudioDevice initialized.
+[2023.11.05-17.52.54:066][361]LogAudio: Display: Audio Device (ID: 11) registered with world 'Map01'.
+[2023.11.05-17.52.54:076][361]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2023.11.05-17.52.54:077][361]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2023.11.06-00.52.54
+[2023.11.05-17.52.54:077][361]LogWorld: Bringing up level for play took: 0.000448
+[2023.11.05-17.52.54:077][361]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2023.11.05-17.52.54:079][361]PIE: Server logged in
+[2023.11.05-17.52.54:080][361]PIE: Play in editor total start time 0.229 seconds.
+[2023.11.05-17.52.57:054][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-17.52.57:054][538]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-17.52.57:054][538]LogWorld: UWorld::CleanupWorld for Map01, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.52.57:054][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.57:062][538]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-17.52.57:067][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.52.57:086][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-17.52.57:088][538]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-17.52.57:089][538]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-17.52.57:116][538]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.11.05-17.52.57:133][539]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2023.11.05-17.52.59:482][675]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Animations/Anim_JumpStart.Anim_JumpStart
+[2023.11.05-17.52.59:486][675]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_52:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.52.59:721][675]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.11.05-17.53.01:037][751]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Assets/Animations/ABP_Player.ABP_Player
+[2023.11.05-17.53.01:046][751]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_56:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.53.02:520][813]LogSlate: Window 'ABP_Player' being destroyed
+[2023.11.05-17.53.02:525][813]LogSlate: Window 'ABP_Player' being destroyed
+[2023.11.05-17.53.02:526][813]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.02:526][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.02:541][813]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.02:541][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.02:586][813]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.02:586][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.02:611][813]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.02:611][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.02:619][813]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.02:619][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.02:681][813]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.02:681][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.09:818][236]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Assets/Meshes/SK_Devvy_F.SK_Devvy_F
+[2023.11.05-17.53.09:821][236]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_58:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.53.10:027][237]LogRenderer: Reallocating scene render targets to support 984x596 Format 10 NumSamples 1 (Frame:1).
+[2023.11.05-17.53.11:801][338]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Assets/Animations/ABP_Player.ABP_Player
+[2023.11.05-17.53.11:805][338]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_60:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.53.12:989][383]LogSlate: Window 'ABP_Player' being destroyed
+[2023.11.05-17.53.12:994][383]LogSlate: Window 'ABP_Player' being destroyed
+[2023.11.05-17.53.12:994][383]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.12:994][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.13:048][383]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.13:048][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.13:056][383]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.13:056][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.13:126][383]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.13:126][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.14:073][438]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Assets/Meshes/SK_Devvy_M.SK_Devvy_M
+[2023.11.05-17.53.14:076][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_62:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.53.14:941][476]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Assets/Animations/ABP_Player.ABP_Player
+[2023.11.05-17.53.14:945][476]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_64:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-17.53.15:804][503]LogSlate: Window 'ABP_Player' being destroyed
+[2023.11.05-17.53.15:811][503]LogSlate: Window 'ABP_Player' being destroyed
+[2023.11.05-17.53.15:834][503]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.15:834][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.15:889][503]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.15:889][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.15:898][503]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.15:898][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.15:960][503]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-17.53.15:960][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-17.53.26:476][132]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy
+[2023.11.05-17.54.03:161][276]LogSlate: Took 0.003953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.11.05-17.54.03:161][276]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ร (U+0e23)'
+[2023.11.05-17.54.03:168][276]LogSlate: Took 0.005397 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2023.11.05-17.54.04:514][355]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2023.11.05-17.54.04:514][355]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2023.11.05-17.56.25:927][585]BlueprintLog: New page: Compile BP_Devvy
+[2023.11.05-17.56.25:936][585]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] InputAction Event references unknown Action 'Sprint' for  InputAction Sprint
+[2023.11.05-17.56.25:936][585]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] InputAction Event references unknown Action 'Walk' for  InputAction Walk
+[2023.11.05-17.56.25:937][585]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2023.11.05-17.56.25:937][585]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2023.11.05-17.56.25:937][585]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2023.11.05-17.56.25:937][585]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2023.11.05-17.56.25:937][585]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2023.11.05-17.56.25:988][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.11.05-18.00.15:639][284]BlueprintLog: New page: Compile BP_Devvy
+[2023.11.05-18.00.15:646][284]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] InputAction Event references unknown Action 'Sprint' for  InputAction Sprint
+[2023.11.05-18.00.15:647][284]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] InputAction Event references unknown Action 'Walk' for  InputAction Walk
+[2023.11.05-18.00.15:647][284]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2023.11.05-18.00.15:647][284]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2023.11.05-18.00.15:647][284]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2023.11.05-18.00.15:647][284]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2023.11.05-18.00.15:647][284]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2023.11.05-18.00.15:687][284]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2023.11.05-18.01.00:270][ 50]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.01.00:276][ 50]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.01.00:304][ 50]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.01.00:304][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.01.05:409][338]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.11.05-18.01.07:346][449]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.11.05-18.01.07:366][449]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.05-18.01.12:758][772]LogSlate: Window 'Project Settings' being destroyed
+[2023.11.05-18.01.12:764][772]LogSlate: Window 'Project Settings' being destroyed
+[2023.11.05-18.01.14:331][863]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy
+[2023.11.05-18.01.16:239][956]BlueprintLog: New page: Compile BP_Devvy
+[2023.11.05-18.01.16:248][956]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] InputAction Event references unknown Action 'Sprint' for  InputAction Sprint
+[2023.11.05-18.01.16:248][956]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] InputAction Event references unknown Action 'Walk' for  InputAction Walk
+[2023.11.05-18.01.16:249][956]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2023.11.05-18.01.16:249][956]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2023.11.05-18.01.16:249][956]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2023.11.05-18.01.16:249][956]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2023.11.05-18.01.16:249][956]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2023.11.05-18.01.16:297][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.11.05-18.01.19:420][137]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.01.19:428][137]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.01.19:430][137]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.01.19:430][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.01.19:964][165]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.05-18.01.19:968][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-18.01.19:968][165]PIE: New page: PIE session: Map01 (6 พ.ย. 2566 08:01:19)
+[2023.11.05-18.01.19:995][165]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-18.01.19:997][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002046s)
+[2023.11.05-18.01.19:997][165]LogAIModule: Creating AISystem for world Map01
+[2023.11.05-18.01.19:998][165]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2023.11.05-18.01.19:998][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Map01.Map01 to /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 (0.003325s)
+[2023.11.05-18.01.20:017][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.11.05-18.01.20:018][165]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.11.05-18.01.20:018][165]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-18.01.20:018][165]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-18.01.20:018][165]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-18.01.20:018][165]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-18.01.20:018][165]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.05-18.01.20:018][165]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.05-18.01.20:018][165]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.05-18.01.20:018][165]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-18.01.20:019][165]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-18.01.20:019][165]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-18.01.20:019][165]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-18.01.20:019][165]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.05-18.01.20:021][165]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.05-18.01.20:021][165]LogAudioMixer: Display: 1: FrontRight
+[2023.11.05-18.01.20:121][165]LogAudioMixer: Display: Using Audio Device Headphones (HyperX Cloud III)
+[2023.11.05-18.01.20:121][165]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-18.01.20:121][165]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-18.01.20:121][165]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-18.01.20:121][165]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.05-18.01.20:121][165]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.05-18.01.20:123][165]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.05-18.01.20:123][165]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.05-18.01.20:123][165]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.05-18.01.20:123][165]LogInit: FAudioDevice initialized.
+[2023.11.05-18.01.20:123][165]LogAudio: Display: Audio Device (ID: 12) registered with world 'Map01'.
+[2023.11.05-18.01.20:130][165]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-18.01.20:131][165]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2023.11.06-01.01.20
+[2023.11.05-18.01.20:131][165]LogWorld: Bringing up level for play took: 0.000462
+[2023.11.05-18.01.20:131][165]LogOnline: OSS: Creating online subsystem instance for: :Context_79
+[2023.11.05-18.01.20:134][165]PIE: Server logged in
+[2023.11.05-18.01.20:134][165]PIE: Play in editor total start time 0.167 seconds.
+[2023.11.05-18.01.24:966][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-18.01.24:966][452]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-18.01.24:966][452]LogWorld: UWorld::CleanupWorld for Map01, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.01.24:966][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.01.24:978][452]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-18.01.24:986][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.01.25:001][452]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-18.01.25:001][452]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-18.01.25:003][452]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-18.01.25:007][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-18.01.25:009][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.11.05-18.01.25:027][453]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2023.11.05-18.01.26:184][521]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy
+[2023.11.05-18.01.28:175][618]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.01.28:181][618]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.01.28:183][618]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.01.28:183][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.01.31:002][771]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.11.05-18.01.33:853][936]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.11.05-18.01.33:871][936]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.05-18.01.41:631][400]LogSlate: Window 'Project Settings' being destroyed
+[2023.11.05-18.01.41:637][400]LogSlate: Window 'Project Settings' being destroyed
+[2023.11.05-18.01.42:282][436]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2023.11.05-18.01.44:317][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../GDD-project/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2023.11.05-18.01.44:320][540]LogSavePackage: Moving '../../../../GDD-project/Saved/BP_GameMode4E0EA8614D647E86CC40B7BBCA81EDCB.tmp' to '../../../../GDD-project/Content/Blueprints/BP_GameMode.uasset'
+[2023.11.05-18.01.44:332][540]AssetCheck: New page: Asset Save: BP_GameMode
+[2023.11.05-18.01.44:332][540]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2023.11.05-18.01.45:138][588]LogSlate: Window 'BP_GameMode' being destroyed
+[2023.11.05-18.01.45:145][588]LogSlate: Window 'BP_GameMode' being destroyed
+[2023.11.05-18.01.45:185][588]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.01.45:185][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.01.45:886][627]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy
+[2023.11.05-18.01.54:019][ 88]BlueprintLog: New page: Compile BP_Devvy
+[2023.11.05-18.01.54:028][ 88]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] InputAction Event references unknown Action 'Sprint' for  InputAction Sprint
+[2023.11.05-18.01.54:028][ 88]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] InputAction Event references unknown Action 'Walk' for  InputAction Walk
+[2023.11.05-18.01.54:029][ 88]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2023.11.05-18.01.54:029][ 88]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2023.11.05-18.01.54:029][ 88]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2023.11.05-18.01.54:029][ 88]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2023.11.05-18.01.54:029][ 88]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2023.11.05-18.01.54:078][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.11.05-18.01.56:152][202]BlueprintLog: New page: Compile BP_Devvy
+[2023.11.05-18.01.56:162][202]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] InputAction Event references unknown Action 'Sprint' for  InputAction Sprint
+[2023.11.05-18.01.56:162][202]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] InputAction Event references unknown Action 'Walk' for  InputAction Walk
+[2023.11.05-18.01.56:162][202]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2023.11.05-18.01.56:163][202]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2023.11.05-18.01.56:163][202]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2023.11.05-18.01.56:163][202]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2023.11.05-18.01.56:163][202]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2023.11.05-18.01.56:209][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.11.05-18.03.09:535][143]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2023.11.05-18.03.09:544][143]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/SideScrollerBP/Maps/Map01' took 0.033
+[2023.11.05-18.03.09:545][143]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Devvy] ([2] browsable assets)...
+[2023.11.05-18.03.09:555][143]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy]
+[2023.11.05-18.03.09:556][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Devvy]
+[2023.11.05-18.03.09:556][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Devvy" FILE="../../../../GDD-project/Saved/Autosaves/Game/Blueprints/BP_Devvy_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.11.05-18.03.09:598][143]LogSavePackage: Moving '../../../../GDD-project/Saved/BP_Devvy_Auto2C3F599A14C526DCA0324FCB48B812A60.tmp' to '../../../../GDD-project/Saved/Autosaves/Game/Blueprints/BP_Devvy_Auto2.uasset'
+[2023.11.05-18.03.09:599][143]LogFileHelpers: Auto-saving content packages took 0.054
+[2023.11.05-18.05.15:915][181]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.05.15:920][181]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.05.15:923][181]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.05.15:923][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.05.19:981][418]LogWindows: LaunchURL https://docs.unrealengine.com/4.27/en//Engine/Blueprints/UserGuide/Types/ClassBlueprint/index.html?utm_source=editor&utm_medium=docs&utm_campaign=cb_docs
+[2023.11.05-18.05.43:551][707]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.05-18.05.43:555][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-18.05.43:555][707]PIE: New page: PIE session: Map01 (6 พ.ย. 2566 08:05:43)
+[2023.11.05-18.05.43:555][707]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-18.05.43:558][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002144s)
+[2023.11.05-18.05.43:558][707]LogAIModule: Creating AISystem for world Map01
+[2023.11.05-18.05.43:559][707]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2023.11.05-18.05.43:559][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Map01.Map01 to /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 (0.003327s)
+[2023.11.05-18.05.43:579][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.05-18.05.43:586][707]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.11.05-18.05.43:586][707]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-18.05.43:586][707]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-18.05.43:586][707]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-18.05.43:586][707]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-18.05.43:586][707]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.05-18.05.43:586][707]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.05-18.05.43:586][707]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.05-18.05.43:586][707]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-18.05.43:587][707]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-18.05.43:587][707]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-18.05.43:587][707]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-18.05.43:587][707]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.05-18.05.43:591][707]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.05-18.05.43:591][707]LogAudioMixer: Display: 1: FrontRight
+[2023.11.05-18.05.43:687][707]LogAudioMixer: Display: Using Audio Device Headphones (HyperX Cloud III)
+[2023.11.05-18.05.43:687][707]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-18.05.43:687][707]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-18.05.43:687][707]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-18.05.43:687][707]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.05-18.05.43:687][707]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.05-18.05.43:687][707]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.05-18.05.43:688][707]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.05-18.05.43:688][707]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.05-18.05.43:688][707]LogInit: FAudioDevice initialized.
+[2023.11.05-18.05.43:688][707]LogAudio: Display: Audio Device (ID: 13) registered with world 'Map01'.
+[2023.11.05-18.05.43:699][707]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2023.11.05-18.05.43:701][707]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2023.11.06-01.05.43
+[2023.11.05-18.05.43:703][707]LogWorld: Bringing up level for play took: 0.003027
+[2023.11.05-18.05.43:703][707]LogOnline: OSS: Creating online subsystem instance for: :Context_83
+[2023.11.05-18.05.43:706][707]PIE: Server logged in
+[2023.11.05-18.05.43:706][707]PIE: Play in editor total start time 0.152 seconds.
+[2023.11.05-18.05.48:346][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-18.05.48:346][982]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-18.05.48:346][982]LogWorld: UWorld::CleanupWorld for Map01, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.05.48:346][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.05.48:351][982]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-18.05.48:380][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.05.48:394][982]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-18.05.48:395][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-18.05.48:396][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-18.05.48:399][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-18.05.48:402][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.11.05-18.05.48:435][983]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2023.11.05-18.05.49:206][ 27]LogEditorViewport: Clicking on Actor (LMB): BP_Devvy_C (BP_Devvy)
+[2023.11.05-18.05.49:906][ 69]Cmd: DELETE
+[2023.11.05-18.05.49:907][ 69]Cmd: ACTOR DELETE
+[2023.11.05-18.05.49:911][ 69]LogEditorActor: Deleted Actor: BP_Devvy_C
+[2023.11.05-18.05.49:937][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.11.05-18.05.49:938][ 69]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2023.11.05-18.08.50:967][802]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.11.05-18.09.20:415][835]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy
+[2023.11.05-18.09.22:134][916]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.09.22:144][916]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.09.22:147][916]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.09.22:147][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.11.06:351][316]LogSlate: Window 'Project Settings' being destroyed
+[2023.11.05-18.11.06:357][316]LogSlate: Window 'Project Settings' being destroyed
+[2023.11.05-18.11.06:983][352]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.05-18.11.06:987][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-18.11.06:987][352]PIE: New page: PIE session: Map01 (6 พ.ย. 2566 08:11:06)
+[2023.11.05-18.11.06:988][352]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-18.11.06:990][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002081s)
+[2023.11.05-18.11.06:990][352]LogAIModule: Creating AISystem for world Map01
+[2023.11.05-18.11.06:991][352]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2023.11.05-18.11.06:991][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Map01.Map01 to /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 (0.003209s)
+[2023.11.05-18.11.07:009][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.11.05-18.11.07:017][352]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.11.05-18.11.07:017][352]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-18.11.07:017][352]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-18.11.07:017][352]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-18.11.07:017][352]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-18.11.07:017][352]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.05-18.11.07:017][352]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.05-18.11.07:017][352]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.05-18.11.07:017][352]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-18.11.07:017][352]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-18.11.07:017][352]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-18.11.07:018][352]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-18.11.07:018][352]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.05-18.11.07:022][352]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.05-18.11.07:022][352]LogAudioMixer: Display: 1: FrontRight
+[2023.11.05-18.11.07:121][352]LogAudioMixer: Display: Using Audio Device Headphones (HyperX Cloud III)
+[2023.11.05-18.11.07:122][352]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-18.11.07:122][352]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-18.11.07:122][352]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-18.11.07:122][352]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.05-18.11.07:122][352]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.05-18.11.07:122][352]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.05-18.11.07:123][352]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.05-18.11.07:123][352]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.05-18.11.07:123][352]LogInit: FAudioDevice initialized.
+[2023.11.05-18.11.07:123][352]LogAudio: Display: Audio Device (ID: 14) registered with world 'Map01'.
+[2023.11.05-18.11.07:134][352]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2023.11.05-18.11.07:135][352]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2023.11.06-01.11.07
+[2023.11.05-18.11.07:136][352]LogWorld: Bringing up level for play took: 0.000462
+[2023.11.05-18.11.07:136][352]LogOnline: OSS: Creating online subsystem instance for: :Context_85
+[2023.11.05-18.11.07:138][352]PIE: Server logged in
+[2023.11.05-18.11.07:139][352]PIE: Play in editor total start time 0.152 seconds.
+[2023.11.05-18.11.10:875][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-18.11.10:875][574]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-18.11.10:875][574]LogWorld: UWorld::CleanupWorld for Map01, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.11.10:875][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.11.10:881][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-18.11.10:886][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.11.10:900][574]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-18.11.10:900][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-18.11.10:901][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-18.11.10:905][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-18.11.10:907][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.11.05-18.11.10:946][576]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2023.11.05-18.11.11:532][610]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy
+[2023.11.05-18.11.29:303][621]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.11.29:309][621]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.11.29:312][621]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.11.29:312][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.11.31:563][739]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.11.05-18.11.42:631][227]LogSlate: Window 'Project Settings' being destroyed
+[2023.11.05-18.11.42:638][227]LogSlate: Window 'Project Settings' being destroyed
+[2023.11.05-18.11.43:906][300]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy
+[2023.11.05-18.12.09:459][742]BlueprintLog: New page: Compile BP_Devvy
+[2023.11.05-18.12.09:467][742]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2023.11.05-18.12.09:467][742]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2023.11.05-18.12.09:467][742]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2023.11.05-18.12.09:468][742]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2023.11.05-18.12.09:468][742]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2023.11.05-18.12.09:507][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.11.05-18.12.09:963][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Devvy" FILE="../../../../GDD-project/Content/Blueprints/BP_Devvy.uasset" SILENT=true
+[2023.11.05-18.12.10:006][764]LogSavePackage: Moving '../../../../GDD-project/Saved/BP_Devvy6E5C17C841462A421F5F049304EB9A70.tmp' to '../../../../GDD-project/Content/Blueprints/BP_Devvy.uasset'
+[2023.11.05-18.12.10:020][764]AssetCheck: New page: Asset Save: BP_Devvy
+[2023.11.05-18.12.10:020][764]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy
+[2023.11.05-18.12.14:390][ 13]BlueprintLog: New page: Compile BP_Devvy
+[2023.11.05-18.12.14:399][ 13]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2023.11.05-18.12.14:439][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.11.05-18.12.14:747][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Devvy" FILE="../../../../GDD-project/Content/Blueprints/BP_Devvy.uasset" SILENT=true
+[2023.11.05-18.12.14:785][ 27]LogSavePackage: Moving '../../../../GDD-project/Saved/BP_DevvyBD581F9D43A1F4CF0F7548B42D5A3337.tmp' to '../../../../GDD-project/Content/Blueprints/BP_Devvy.uasset'
+[2023.11.05-18.12.14:801][ 27]AssetCheck: New page: Asset Save: BP_Devvy
+[2023.11.05-18.12.14:801][ 27]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy
+[2023.11.05-18.12.17:353][180]BlueprintLog: New page: Compile BP_Devvy
+[2023.11.05-18.12.17:363][180]LogBlueprint: Warning: [AssetLog] D:\GDD-project\Content\Blueprints\BP_Devvy.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2023.11.05-18.12.17:403][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.11.05-18.12.29:248][879]BlueprintLog: New page: Compile BP_Devvy
+[2023.11.05-18.12.29:296][879]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.11.05-18.12.29:804][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Devvy" FILE="../../../../GDD-project/Content/Blueprints/BP_Devvy.uasset" SILENT=true
+[2023.11.05-18.12.29:841][905]LogSavePackage: Moving '../../../../GDD-project/Saved/BP_Devvy4F53FC6F4C7BE9005DE53191107BF245.tmp' to '../../../../GDD-project/Content/Blueprints/BP_Devvy.uasset'
+[2023.11.05-18.12.29:856][905]AssetCheck: New page: Asset Save: BP_Devvy
+[2023.11.05-18.12.29:856][905]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Devvy.BP_Devvy
+[2023.11.05-18.12.30:398][938]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.12.30:403][938]LogSlate: Window 'BP_Devvy' being destroyed
+[2023.11.05-18.12.30:408][938]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.12.30:408][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.12.30:973][969]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.05-18.12.30:978][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-18.12.30:978][969]PIE: New page: PIE session: Map01 (6 พ.ย. 2566 08:12:30)
+[2023.11.05-18.12.30:978][969]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-18.12.30:980][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001731s)
+[2023.11.05-18.12.30:981][969]LogAIModule: Creating AISystem for world Map01
+[2023.11.05-18.12.30:981][969]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2023.11.05-18.12.30:981][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Map01.Map01 to /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 (0.002729s)
+[2023.11.05-18.12.31:000][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.11.05-18.12.31:001][969]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.11.05-18.12.31:001][969]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-18.12.31:001][969]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-18.12.31:001][969]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-18.12.31:001][969]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-18.12.31:001][969]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.05-18.12.31:001][969]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.05-18.12.31:001][969]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.05-18.12.31:001][969]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-18.12.31:001][969]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-18.12.31:001][969]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-18.12.31:001][969]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-18.12.31:001][969]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.05-18.12.31:005][969]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.05-18.12.31:005][969]LogAudioMixer: Display: 1: FrontRight
+[2023.11.05-18.12.31:106][969]LogAudioMixer: Display: Using Audio Device Headphones (HyperX Cloud III)
+[2023.11.05-18.12.31:107][969]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-18.12.31:107][969]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-18.12.31:107][969]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-18.12.31:107][969]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.05-18.12.31:107][969]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.05-18.12.31:107][969]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.05-18.12.31:108][969]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.05-18.12.31:108][969]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.05-18.12.31:108][969]LogInit: FAudioDevice initialized.
+[2023.11.05-18.12.31:108][969]LogAudio: Display: Audio Device (ID: 15) registered with world 'Map01'.
+[2023.11.05-18.12.31:116][969]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2023.11.05-18.12.31:117][969]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2023.11.06-01.12.31
+[2023.11.05-18.12.31:117][969]LogWorld: Bringing up level for play took: 0.000550
+[2023.11.05-18.12.31:117][969]LogOnline: OSS: Creating online subsystem instance for: :Context_88
+[2023.11.05-18.12.31:120][969]PIE: Server logged in
+[2023.11.05-18.12.31:120][969]PIE: Play in editor total start time 0.143 seconds.
+[2023.11.05-18.12.34:624][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-18.12.34:624][177]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-18.12.34:625][177]LogWorld: UWorld::CleanupWorld for Map01, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.12.34:625][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.12.34:631][177]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-18.12.34:635][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.12.34:649][177]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-18.12.34:649][177]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-18.12.34:651][177]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-18.12.34:654][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-18.12.34:657][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.11.05-18.12.34:693][179]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2023.11.05-18.12.35:726][241]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.05-18.12.35:731][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-18.12.35:731][241]PIE: New page: PIE session: Map01 (6 พ.ย. 2566 08:12:35)
+[2023.11.05-18.12.35:731][241]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-18.12.35:733][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001758s)
+[2023.11.05-18.12.35:734][241]LogAIModule: Creating AISystem for world Map01
+[2023.11.05-18.12.35:735][241]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2023.11.05-18.12.35:735][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Map01.Map01 to /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 (0.003089s)
+[2023.11.05-18.12.35:750][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.11.05-18.12.35:751][241]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.11.05-18.12.35:751][241]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-18.12.35:751][241]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-18.12.35:751][241]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-18.12.35:751][241]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-18.12.35:751][241]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.05-18.12.35:751][241]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.05-18.12.35:751][241]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.05-18.12.35:751][241]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-18.12.35:754][241]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-18.12.35:754][241]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-18.12.35:754][241]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-18.12.35:754][241]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.05-18.12.35:758][241]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.05-18.12.35:758][241]LogAudioMixer: Display: 1: FrontRight
+[2023.11.05-18.12.35:856][241]LogAudioMixer: Display: Using Audio Device Headphones (HyperX Cloud III)
+[2023.11.05-18.12.35:856][241]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-18.12.35:856][241]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-18.12.35:856][241]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-18.12.35:857][241]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.05-18.12.35:857][241]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.05-18.12.35:857][241]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.05-18.12.35:858][241]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.05-18.12.35:858][241]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.05-18.12.35:858][241]LogInit: FAudioDevice initialized.
+[2023.11.05-18.12.35:858][241]LogAudio: Display: Audio Device (ID: 16) registered with world 'Map01'.
+[2023.11.05-18.12.35:863][241]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2023.11.05-18.12.35:865][241]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2023.11.06-01.12.35
+[2023.11.05-18.12.35:865][241]LogWorld: Bringing up level for play took: 0.000663
+[2023.11.05-18.12.35:865][241]LogOnline: OSS: Creating online subsystem instance for: :Context_89
+[2023.11.05-18.12.35:867][241]PIE: Server logged in
+[2023.11.05-18.12.35:868][241]PIE: Play in editor total start time 0.137 seconds.
+[2023.11.05-18.12.48:515][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-18.12.48:515][997]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Map01
+[2023.11.05-18.12.48:515][997]LogWorld: UWorld::CleanupWorld for Map01, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-18.12.48:515][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.12.48:524][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-18.12.48:528][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-18.12.48:541][997]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-18.12.48:541][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-18.12.48:543][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.05-18.12.48:546][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-18.12.48:549][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.11.05-18.12.48:584][999]LogPlayLevel: Display: Destroying online subsystem :Context_89
