@@ -1112,3 +1112,277 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.10-06.51.29:900][  1]LogAssetRegistry: AssetRegistryGather time 0.1062s: AssetDataDiscovery 0.0251s, AssetDataGather 0.0285s, StoreResults 0.0526s.
 [2024.01.10-06.51.29:921][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
 [2024.01.10-06.51.29:926][  1]LogD3D12RHI: Cannot end block when stack is empty
+[2024.01.10-06.51.47:596][268]LogSlate: Took 0.000526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.10-06.52.00:545][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.01.10-06.52.00:746][ 41]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Animations/Anim_Idle.Anim_Idle
+[2024.01.10-06.52.00:751][ 41]LogTexture: Display: Building textures: /Game/Maps/Main_BuiltData.Main_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 0.533824 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.00:751][ 41]LogTexture: Display: Building textures: /Game/Maps/Main_BuiltData.Main_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 0.713502 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.00:751][ 41]LogTexture: Display: Building textures: /Game/Maps/Main_BuiltData.Main_BuiltData:SkyOcclusion0_1 (TFO_AutoDXT, 256x128 x1x1x1) (Required Memory Estimate: 5.270758 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.00:751][ 41]LogTexture: Display: Building textures: /Game/Maps/Main_BuiltData.Main_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.479041 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.00:752][ 41]LogTexture: Display: Building textures: /Game/Maps/Main_BuiltData.Main_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 256x256 x1x1x1) (Required Memory Estimate: 7.604136 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.00:762][ 41]LogTexture: Display: Building textures: /Game/Maps/Main_BuiltData.Main_BuiltData:SkyOcclusion0_2 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 0.387945 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.00:764][ 41]LogStaticMesh: Display: Building static mesh SM_Template_Map_Floor...
+[2024.01.10-06.52.00:777][ 41]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.10-06.52.00:780][ 41]LogStaticMesh: Built static mesh [0.02s] /Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor
+[2024.01.10-06.52.00:809][ 41]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Devvy_F) ...
+[2024.01.10-06.52.00:816][ 41]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Animations/Anim_Idle.Anim_Idle, at AnimationSequence/070321f20b883a2abfe2a4ac7c3adf5167c77a1c
+[2024.01.10-06.52.00:819][ 41]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.01.10-06.52.00:819][ 41]LogSkeletalMesh: Building Skeletal Mesh SK_Devvy_F...
+[2024.01.10-06.52.01:193][ 41]LogSkeletalMesh: Built Skeletal Mesh [0.38s] /Game/Assets/Meshes/SK_Devvy_F.SK_Devvy_F
+[2024.01.10-06.52.01:193][ 41]LogSkeletalMesh: Building Skeletal Mesh SK_Devvy_M...
+[2024.01.10-06.52.01:218][ 41]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Devvy_M) ...
+[2024.01.10-06.52.01:541][ 41]LogSkeletalMesh: Built Skeletal Mesh [0.35s] /Game/Assets/Meshes/SK_Devvy_M.SK_Devvy_M
+[2024.01.10-06.52.01:547][ 41]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Main.Main
+[2024.01.10-06.52.01:548][ 41]Cmd: MAP LOAD FILE="D:/AGD/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.10-06.52.01:548][ 41]LightingResults: New page: Lighting Build
+[2024.01.10-06.52.01:551][ 41]LoadErrors: New page: Loading map: Main.umap
+[2024.01.10-06.52.01:560][ 41]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.01.10-06.52.01:560][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.10-06.52.01:560][ 41]MapCheck: New page: Map Check
+[2024.01.10-06.52.01:560][ 41]LightingResults: New page: Lighting Build
+[2024.01.10-06.52.01:565][ 41]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.10-06.52.01:567][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.01.10-06.52.01:711][ 41]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.01.10-06.52.01:712][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.10-06.52.01:718][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.01.10-06.52.01:722][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.01.10-06.52.01:726][ 41]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main'.
+[2024.01.10-06.52.01:726][ 41]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.10-06.52.01:726][ 41]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.10-06.52.01:726][ 41]LogAIModule: Creating AISystem for world Main
+[2024.01.10-06.52.01:845][ 41]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.10-06.52.01:853][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.01.10-06.52.01:854][ 41]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.10-06.52.01:854][ 41]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.057ms to complete.
+[2024.01.10-06.52.02:316][ 43]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.10-06.52.13:661][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.01.10-06.52.13:759][498]LogTexture: Display: Building textures: /Game/SideScrollerBP/Widgets/background.background (BGRA8, 498x152 x1x1x1) (Required Memory Estimate: 2.276306 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.13:759][498]LogTexture: Display: Building textures: /Game/SideScrollerBP/Widgets/border.border (BGRA8, 512x161 x1x1x1) (Required Memory Estimate: 2.473301 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.13:760][498]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.10-06.52.13:761][498]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SideScrollerBP/Maps/MainMenu.MainMenu
+[2024.01.10-06.52.13:761][498]Cmd: MAP LOAD FILE="D:/AGD/Content/SideScrollerBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.10-06.52.13:761][498]LightingResults: New page: Lighting Build
+[2024.01.10-06.52.13:761][498]LoadErrors: New page: Loading map: MainMenu.umap
+[2024.01.10-06.52.13:775][498]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.01.10-06.52.13:775][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.10-06.52.13:775][498]MapCheck: New page: Map Check
+[2024.01.10-06.52.13:775][498]LightingResults: New page: Lighting Build
+[2024.01.10-06.52.13:780][498]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.10-06.52.13:783][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.01.10-06.52.13:785][498]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.01.10-06.52.13:785][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.10-06.52.13:790][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.01.10-06.52.13:794][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.01.10-06.52.13:799][498]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2024.01.10-06.52.13:799][498]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.10-06.52.13:799][498]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.10-06.52.13:800][498]LogAIModule: Creating AISystem for world MainMenu
+[2024.01.10-06.52.13:825][498]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.10-06.52.13:831][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.01.10-06.52.13:833][498]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.10-06.52.13:833][498]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.062ms to complete.
+[2024.01.10-06.52.14:699][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.01.10-06.52.15:065][549]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Animations/Anim_JumpInAirFall.Anim_JumpInAirFall
+[2024.01.10-06.52.15:068][549]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Animations/Anim_JumpStart.Anim_JumpStart
+[2024.01.10-06.52.15:078][549]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Animations/Anim_WallSlide.Anim_WallSlide
+[2024.01.10-06.52.15:079][549]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Animations/Anim_Run.Anim_Run
+[2024.01.10-06.52.15:086][549]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Animations/Anim_JumpStart.Anim_JumpStart, at AnimationSequence/3802e5f23424d0e3fdd25f96782c1e0f40b6418f
+[2024.01.10-06.52.15:092][549]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Animations/Anim_JumpInAirFall.Anim_JumpInAirFall, at AnimationSequence/3e4049518f9707f13fd27e1bbe17a8e975d8ee30
+[2024.01.10-06.52.15:092][549]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Animations/Anim_Sprint.Anim_Sprint
+[2024.01.10-06.52.15:092][549]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Animations/Anim_JumpLand.Anim_JumpLand
+[2024.01.10-06.52.15:092][549]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Animations/Anim_Walk.Anim_Walk
+[2024.01.10-06.52.15:093][549]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Animations/Anim_WallSlide.Anim_WallSlide, at AnimationSequence/0c49858b2e9538c5f4884014314beb8e335037a1
+[2024.01.10-06.52.15:107][549]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Animations/Anim_Sprint.Anim_Sprint, at AnimationSequence/e6c40a3609e3cba9a763e36e22dd5f7d86c6d5fe
+[2024.01.10-06.52.15:112][549]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Animations/Anim_Run.Anim_Run, at AnimationSequence/299a2652a47228ec76f4203b4825d1575bcb644d
+[2024.01.10-06.52.15:112][549]LogStaticMesh: Display: Building static mesh SM_RockBrick_Medium_01...
+[2024.01.10-06.52.15:112][549]LogStaticMesh: Display: Building static mesh SM_RockBrick_Medium_02...
+[2024.01.10-06.52.15:112][549]LogStaticMesh: Display: Building static mesh SM_RockBrick_Small_01...
+[2024.01.10-06.52.15:112][549]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Animations/Anim_DoubleJump.Anim_DoubleJump
+[2024.01.10-06.52.15:116][549]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Animations/Anim_Walk.Anim_Walk, at AnimationSequence/7c5c7e1efdb56bf147b26f8d68c35767d7473656
+[2024.01.10-06.52.15:124][549]LogStaticMesh: Display: Building static mesh SM_RockBrick_Small_02...
+[2024.01.10-06.52.15:124][549]LogStaticMesh: Display: Building static mesh SM_WindMill_Palms...
+[2024.01.10-06.52.15:126][549]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Animations/Anim_JumpLand.Anim_JumpLand, at AnimationSequence/10ce0e5149be0c4d9e42d17b98188e3c69ecc156
+[2024.01.10-06.52.15:126][549]LogStaticMesh: Built static mesh [0.01s] /Game/StylizedProvencal/Meshes/SM_RockBrick_Small_01.SM_RockBrick_Small_01
+[2024.01.10-06.52.15:136][549]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Animations/Anim_DoubleJump.Anim_DoubleJump, at AnimationSequence/085eb327844ff2b2390dd5cd67e0b68fef577085
+[2024.01.10-06.52.15:136][549]LogStaticMesh: Built static mesh [0.02s] /Game/StylizedProvencal/Meshes/SM_RockBrick_Medium_02.SM_RockBrick_Medium_02
+[2024.01.10-06.52.15:138][549]LogStaticMesh: Built static mesh [0.01s] /Game/StylizedProvencal/Meshes/SM_RockBrick_Small_02.SM_RockBrick_Small_02
+[2024.01.10-06.52.15:140][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Default_White.T_Default_White (G8, 64x64 x1x1x1) (Required Memory Estimate: 0.154943 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.15:143][549]LogStaticMesh: Built static mesh [0.03s] /Game/StylizedProvencal/Meshes/SM_RockBrick_Medium_01.SM_RockBrick_Medium_01
+[2024.01.10-06.52.15:164][549]LogStaticMesh: Display: Building static mesh SM_WindMill_SM_WindMill...
+[2024.01.10-06.52.15:215][549]LogStaticMesh: Built static mesh [0.09s] /Game/StylizedProvencal/Meshes/SM_WindMill_Palms.SM_WindMill_Palms
+[2024.01.10-06.52.15:217][549]LogStaticMesh: Display: Building static mesh SM_Grass_Scattered...
+[2024.01.10-06.52.15:228][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Wood_N.T_Wood_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.15:237][549]LogStaticMesh: Built static mesh [0.02s] /Game/DreamscapeSeries/DreamscapeTower/Meshes/Foliage/SM_Grass_Scattered.SM_Grass_Scattered
+[2024.01.10-06.52.15:255][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Rocks_Bricks_AORM.T_Rocks_Bricks_AORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.15:257][549]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.10-06.52.15:262][549]LogMaterial: Display: Material /Game/DreamscapeSeries/DreamscapeTower/Textures/Terrain/T_GrassTerrain_01_01_C_Mat.T_GrassTerrain_01_01_C_Mat needed to have new flag set bUsedWithStaticLighting !
+[2024.01.10-06.52.15:280][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Grass_B.T_Grass_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.15:327][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Rocks_Bricks_N.T_Rocks_Bricks_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.15:329][549]MapCheck: Warning: T_GrassTerrain_01_01_C_Mat Material /Game/DreamscapeSeries/DreamscapeTower/Textures/Terrain/T_GrassTerrain_01_01_C_Mat.T_GrassTerrain_01_01_C_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2024.01.10-06.52.15:354][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Rocks_Bricks_B.T_Rocks_Bricks_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.15:410][549]LogStaticMesh: Display: Building static mesh SM_HazelBush_01_WIP...
+[2024.01.10-06.52.15:414][549]LogStaticMesh: Display: Building static mesh SM_HazelBush_03_WIP...
+[2024.01.10-06.52.15:507][549]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SideScrollerBP/Maps/Map01.Map01
+[2024.01.10-06.52.15:508][549]Cmd: MAP LOAD FILE="D:/AGD/Content/SideScrollerBP/Maps/Map01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.10-06.52.15:508][549]LightingResults: New page: Lighting Build
+[2024.01.10-06.52.15:508][549]LoadErrors: New page: Loading map: Map01.umap
+[2024.01.10-06.52.15:533][549]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.01.10-06.52.15:533][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.10-06.52.15:533][549]MapCheck: New page: Map Check
+[2024.01.10-06.52.15:533][549]LightingResults: New page: Lighting Build
+[2024.01.10-06.52.15:541][549]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.10-06.52.15:545][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.10-06.52.15:548][549]LogStaticMesh: Display: Building static mesh SM_WaterMill_Wheel...
+[2024.01.10-06.52.15:549][549]LogStaticMesh: Display: Building static mesh SM_Vines_Wide_01...
+[2024.01.10-06.52.15:549][549]LogStaticMesh: Display: Building static mesh SM_Tree_A_02...
+[2024.01.10-06.52.15:555][549]LogStaticMesh: Built static mesh [0.01s] /Game/DreamscapeSeries/DreamscapeTower/Meshes/Foliage/SM_Vines_Wide_01.SM_Vines_Wide_01
+[2024.01.10-06.52.15:556][549]LogStaticMesh: Display: Building static mesh SM_Stool...
+[2024.01.10-06.52.15:566][549]LogStaticMesh: Display: Waiting for static meshes to be ready 0/24 (/Game/StylizedProvencal/Meshes/SM_WaterMill_Wheel) ...
+[2024.01.10-06.52.15:594][549]LogStaticMesh: Built static mesh [0.04s] /Game/StylizedProvencal/Meshes/SM_Stool.SM_Stool
+[2024.01.10-06.52.15:595][549]LogStaticMesh: Display: Building static mesh SM_RuneStone_01...
+[2024.01.10-06.52.15:647][549]LogStaticMesh: Built static mesh [0.05s] /Game/DreamscapeSeries/DreamscapeTower/Meshes/Stones/SM_RuneStone_01.SM_RuneStone_01
+[2024.01.10-06.52.15:652][549]LogStaticMesh: Built static mesh [0.24s] /Game/DreamscapeSeries/DreamscapeTower/Meshes/Foliage/SM_HazelBush_03_WIP.SM_HazelBush_03_WIP
+[2024.01.10-06.52.15:654][549]LogStaticMesh: Display: Building static mesh SM_Rock_Small_02...
+[2024.01.10-06.52.15:680][549]LogStaticMesh: Display: Building static mesh SM_Rock_Small_01...
+[2024.01.10-06.52.15:726][549]LogStaticMesh: Built static mesh [0.32s] /Game/DreamscapeSeries/DreamscapeTower/Meshes/Foliage/SM_HazelBush_01_WIP.SM_HazelBush_01_WIP
+[2024.01.10-06.52.15:741][549]LogStaticMesh: Built static mesh [0.06s] /Game/StylizedProvencal/Meshes/SM_Rock_Small_01.SM_Rock_Small_01
+[2024.01.10-06.52.15:743][549]LogStaticMesh: Display: Building static mesh SM_Rock_Large_01...
+[2024.01.10-06.52.15:755][549]LogStaticMesh: Display: Building static mesh SM_Jar_02...
+[2024.01.10-06.52.15:756][549]LogStaticMesh: Display: Building static mesh SM_GrassField_02_b...
+[2024.01.10-06.52.15:766][549]LogStaticMesh: Built static mesh [0.11s] /Game/StylizedProvencal/Meshes/SM_Rock_Small_02.SM_Rock_Small_02
+[2024.01.10-06.52.15:768][549]LogStaticMesh: Display: Building static mesh SM_FloatingIsland...
+[2024.01.10-06.52.15:776][549]LogStaticMesh: Display: Building static mesh SM_Cliff_01...
+[2024.01.10-06.52.15:785][549]LogStaticMesh: Display: Building static mesh SM_Cliff_07...
+[2024.01.10-06.52.15:787][549]LogStaticMesh: Built static mesh [0.03s] /Game/StylizedProvencal/Meshes/SM_GrassField_02_b.SM_GrassField_02_b
+[2024.01.10-06.52.15:788][549]LogStaticMesh: Display: Building static mesh SM_Barrel_Open...
+[2024.01.10-06.52.15:817][549]LogStaticMesh: Built static mesh [0.03s] /Game/DreamscapeSeries/DreamscapeTower/Meshes/Stones/Cliffs/SM_Cliff_07.SM_Cliff_07
+[2024.01.10-06.52.15:827][549]LogStaticMesh: Display: Building static mesh SM_Barrel...
+[2024.01.10-06.52.15:837][549]LogStaticMesh: Built static mesh [0.06s] /Game/DreamscapeSeries/DreamscapeTower/Meshes/Stones/Cliffs/SM_Cliff_01.SM_Cliff_01
+[2024.01.10-06.52.15:840][549]LogStaticMesh: Built static mesh [0.07s] /Game/DreamscapeSeries/DreamscapeTower/Meshes/Stones/SM_FloatingIsland.SM_FloatingIsland
+[2024.01.10-06.52.15:869][549]LogStaticMesh: Built static mesh [0.32s] /Game/DreamscapeSeries/DreamscapeTower/Meshes/Trees/SM_Tree_A_02.SM_Tree_A_02
+[2024.01.10-06.52.15:977][549]LogStaticMesh: Built static mesh [0.43s] /Game/StylizedProvencal/Meshes/SM_WaterMill_Wheel.SM_WaterMill_Wheel
+[2024.01.10-06.52.15:983][549]LogMaterial: Display: Material /Game/DreamscapeSeries/DreamscapeTower/Materials/Trees/MI_TreeTrunk_01.MI_TreeTrunk_01 needed to have new flag set bUsedWithStaticLighting !
+[2024.01.10-06.52.15:990][549]LogStaticMesh: Built static mesh [0.24s] /Game/StylizedProvencal/Meshes/SM_Jar_02.SM_Jar_02
+[2024.01.10-06.52.16:024][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Wood_B.T_Wood_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:028][549]LogStaticMesh: Built static mesh [0.24s] /Game/StylizedProvencal/Meshes/SM_Barrel_Open.SM_Barrel_Open
+[2024.01.10-06.52.16:078][549]MapCheck: Warning: M_Tree_GlobalWind_Master Material /Game/DreamscapeSeries/DreamscapeTower/Materials/Trees/MI_TreeTrunk_01.MI_TreeTrunk_01 was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2024.01.10-06.52.16:097][549]LogMaterial: Display: Material /Game/DreamscapeSeries/DreamscapeTower/Materials/Trees/Billboards/MI_TreeA_02_BB.MI_TreeA_02_BB needed to have new flag set bUsedWithStaticLighting !
+[2024.01.10-06.52.16:105][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_WindMill_AORM.T_WindMill_AORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:187][549]MapCheck: Warning: M_FoliageBillboard_Master Material /Game/DreamscapeSeries/DreamscapeTower/Materials/Trees/Billboards/MI_TreeA_02_BB.MI_TreeA_02_BB was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2024.01.10-06.52.16:188][549]LogStaticMesh: Built static mesh [0.36s] /Game/StylizedProvencal/Meshes/SM_Barrel.SM_Barrel
+[2024.01.10-06.52.16:209][549]LogStaticMesh: Display: Waiting for static meshes to be ready 7/24 (/Game/StylizedProvencal/Meshes/SM_Rock_Large_01) ...
+[2024.01.10-06.52.16:257][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_WindMill_B.T_WindMill_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:342][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Decals_B.T_Decals_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:418][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Wood_A0RM.T_Wood_A0RM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:464][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Atlas_House_AORM.T_Atlas_House_AORM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:492][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_WindMill_N.T_WindMill_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:506][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Atlas_House_B.T_Atlas_House_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:542][549]LogStaticMesh: Built static mesh [0.80s] /Game/StylizedProvencal/Meshes/SM_Rock_Large_01.SM_Rock_Large_01
+[2024.01.10-06.52.16:562][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Noise_02_M.T_Noise_02_M (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:572][549]LogStaticMesh: Display: Waiting for static meshes to be ready 19/24 (/Game/StylizedProvencal/Meshes/SM_WindMill_SM_WindMill) ...
+[2024.01.10-06.52.16:607][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Atlas_House_N.T_Atlas_House_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:710][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Plaster_AORM.T_Plaster_AORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:779][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Plaster_N.T_Plaster_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:818][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Plaster_B.T_Plaster_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.16:995][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_RoofTileMeshes_01_B.T_RoofTileMeshes_01_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:052][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_StoneWall03_H.T_StoneWall03_H (G8, 2048x2048 x1x1x1) (Required Memory Estimate: 106.729161 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:076][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_StoneWall03_A0RM.T_StoneWall03_A0RM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:089][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_StoneWall03_N.T_StoneWall03_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:113][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_StoneWall03_B.T_StoneWall03_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:425][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_RoofTileMeshes_AORM.T_RoofTileMeshes_AORM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:443][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_RoofTiles_01_B.T_RoofTiles_01_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:452][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_RoofTileMeshes_03_B.T_RoofTileMeshes_03_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:453][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_RoofTileMeshes_02_B.T_RoofTileMeshes_02_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:473][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_RoofTileMeshes_N.T_RoofTileMeshes_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:477][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_RoofTiles_02_B.T_RoofTiles_02_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:510][549]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2024.01.10-06.52.17:524][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_RoofTiles_03_B.T_RoofTiles_03_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:655][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_RoofTiles_H.T_RoofTiles_H (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 30.72916 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:659][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_RoofTiles_AORM.T_RoofTiles_AORM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:673][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Windows_E.T_Windows_E (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:686][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Windows_AORM.T_Windows_AORM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:686][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Windows_B.T_Windows_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:696][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_RoofTiles_Normal.T_RoofTiles_Normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:810][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Windows_N.T_Windows_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:840][549]LogTexture: Display: Building textures: /Game/SideScrollerBP/Maps/Map01_BuiltData.Map01_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 0.713502 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:866][549]LogTexture: Display: Building textures: /Game/SideScrollerBP/Maps/Map01_BuiltData.Map01_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.479156 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:882][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_WoodenMeshes_AORM.T_WoodenMeshes_AORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:975][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_WoodenMeshes_B.T_WoodenMeshes_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:990][549]LogTexture: Display: Building textures: /Game/SideScrollerBP/Maps/Map01_BuiltData.Map01_BuiltData:ShadowMapTexture2D_3 (G8, 32x32 x1x1x1) (Required Memory Estimate: 0.085932 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:991][549]LogTexture: Display: Building textures: /Game/SideScrollerBP/Maps/Map01_BuiltData.Map01_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 0.533824 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.17:991][549]LogTexture: Display: Building textures: /Game/SideScrollerBP/Maps/Map01_BuiltData.Map01_BuiltData:ShadowMapTexture2D_2 (G8, 1024x256 x1x1x1) (Required Memory Estimate: 6.062496 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:020][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_WoodenMeshes_N.T_WoodenMeshes_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:022][549]LogTexture: Display: Building textures: /Game/SideScrollerBP/Maps/Map01_BuiltData.Map01_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:165][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/SharedResources/Textures/Utility/T_WhiteLinear.T_WhiteLinear (TFO_AutoDXT, 32x32 x1x1x1) (Required Memory Estimate: 0.22392 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:170][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/SharedResources/Textures/Utility/T_Noise_Clouds_02.T_Noise_Clouds_02 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.645709 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:209][549]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.698955s
+[2024.01.10-06.52.18:250][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/SharedResources/Textures/Utility/T_BaseORM.T_BaseORM (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 2.645795 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:251][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/SharedResources/Textures/Utility/T_BlackLinear.T_BlackLinear (TFO_AutoDXT, 32x32 x1x1x1) (Required Memory Estimate: 0.22392 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:257][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/SharedResources/Textures/Utility/T_Noise_Clouds_01.T_Noise_Clouds_01 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.645709 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:275][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Foliage/T_GrassAtlas_C.T_GrassAtlas_C (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:284][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Trees/T_Bark_Autumn_01_C.T_Bark_Autumn_01_C (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:301][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Trees/T_Bark_Autumn_01_N.T_Bark_Autumn_01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:316][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Foliage/T_Leaves_Round_02_C.T_Leaves_Round_02_C (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 128.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:376][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Foliage/T_Flowers_Atlas_O.T_Flowers_Atlas_O (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:400][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Foliage/T_Flowers_Field_CV.T_Flowers_Field_CV (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:408][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Terrain/T_GrassTerrain_01_01_C.T_GrassTerrain_01_01_C (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:417][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Foliage/T_Vines_C.T_Vines_C (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:417][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Trees/T_Bark_Autumn_01_ORM.T_Bark_Autumn_01_ORM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:435][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/SharedResources/Textures/Utility/T_UVChecker_C.T_UVChecker_C (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:483][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Terrain/T_Dirt_01_C.T_Dirt_01_C (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:807][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/Cliffs/T_Cliff_01_C.T_Cliff_01_C (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:879][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/SharedResources/Textures/Utility/NoisePack_01_C.NoisePack_01_C (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 128.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:909][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/Cliffs/T_Cliff_01_ORM.T_Cliff_01_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.18:933][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/Cliffs/T_Cliff_01_N.T_Cliff_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.19:313][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Terrain/T_GrassTerrain_01_N.T_GrassTerrain_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.19:399][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Terrain/T_CliffBase_Tower_C.T_CliffBase_Tower_C (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.19:515][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Terrain/T_CliffBase_Tower_N.T_CliffBase_Tower_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.19:719][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Terrain/T_GrassTerrain_01_ORM.T_GrassTerrain_01_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.19:837][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/Cliffs/T_Cliff_07_C.T_Cliff_07_C (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.19:917][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/Cliffs/T_Cliff_07_N.T_Cliff_07_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.20:052][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/Cliffs/T_Cliff_07_ORM.T_Cliff_07_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.20:286][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/T_FloatingIsland_01_C.T_FloatingIsland_01_C (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.20:286][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/T_FloatingIsland_01_ORM.T_FloatingIsland_01_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.20:462][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/T_FloatingIsland_01_N.T_FloatingIsland_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.20:690][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/T_RuneRock_01_E.T_RuneRock_01_E (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.20:814][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/T_RuneRock_01_C.T_RuneRock_01_C (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.20:857][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/T_RuneRock_01_N.T_RuneRock_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.20:922][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Trees/Billboards/T_Tree_A_01_BB_C.T_Tree_A_01_BB_C (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.21:131][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Trees/Billboards/T_Tree_A_02_BB_C.T_Tree_A_02_BB_C (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.21:210][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Stones/T_RuneRock_01_ORM.T_RuneRock_01_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.21:268][549]LogTexture: Display: Building textures: /Game/DreamscapeSeries/DreamscapeTower/Textures/Trees/T_Leaves_Round_01_C.T_Leaves_Round_01_C (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 128.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.21:441][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Barrel_Jar_B.T_Barrel_Jar_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.21:465][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Barrel_Jar_AORM.T_Barrel_Jar_AORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.21:708][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_FieldGrass_02_M.T_FieldGrass_02_M (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.21:824][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Barrel_Jar_N.T_Barrel_Jar_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.21:850][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Flora_Atlas_01_B.T_Flora_Atlas_01_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.22:150][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Rocks_AORM.T_Rocks_AORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.22:210][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Rocks_N.T_Rocks_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.22:213][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Rocks_B.T_Rocks_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.22:713][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Cart_AORM.T_Cart_AORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.22:774][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Cart_N.T_Cart_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.22:779][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_Cart_B.T_Cart_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.23:332][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_WaterMill_Wheel_AORM.T_WaterMill_Wheel_AORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.23:396][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_WaterMill_Wheel_B.T_WaterMill_Wheel_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.23:508][549]LogTexture: Display: Building textures: /Game/StylizedProvencal/Textures/T_WaterMill_Wheel_N.T_WaterMill_Wheel_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.25:551][549]LogStall: Stall detector 'AsyncCompilationHelpers::FinishCompilation' exceeded budget of 10.000000s, reporting...
+[2024.01.10-06.52.25:758][549]LogStall: Stall detector 'AsyncCompilationHelpers::FinishCompilation' report submitted, and took 0.206892s
+[2024.01.10-06.52.26:584][549]LogStaticMesh: Built static mesh [11.42s] /Game/StylizedProvencal/Meshes/SM_WindMill_SM_WindMill.SM_WindMill_SM_WindMill
+[2024.01.10-06.52.26:691][549]LogStall: Stall detector 'AsyncCompilationHelpers::FinishCompilation' complete in 11.142947s (1.142947s overbudget)
+[2024.01.10-06.52.28:043][549]LogWorld: UWorld::CleanupWorld for Map01, bSessionEnded=true, bCleanupResources=true
+[2024.01.10-06.52.28:051][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.10-06.52.28:069][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.01.10-06.52.28:079][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.01.10-06.52.28:115][549]LogTexture: Display: Building textures: /Game/SideScrollerBP/Maps/Map01_BuiltData.Map01_BuiltData:NewReflectionComponentTexture2D3536B64AE9B5CD655231B75338EAC6 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2024.01.10-06.52.28:125][549]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map01'.
+[2024.01.10-06.52.28:126][549]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.10-06.52.28:126][549]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.10-06.52.28:128][549]LogAIModule: Creating AISystem for world Map01
+[2024.01.10-06.52.28:482][549]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.10-06.52.28:497][549]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2024.01.10-06.52.28:502][549]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.10-06.52.28:502][549]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 0.272ms to complete.
+[2024.01.10-06.52.28:577][549]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 13.069582s (11.069582s overbudget)
+[2024.01.10-06.52.28:943][550]LogAutomationController: Ignoring very large delta of 14.26 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.10-06.52.31:289][586]LogSlate: Window 'Message Log' being destroyed
+[2024.01.10-06.52.31:322][586]LogSlate: Window 'Message Log' being destroyed
